@@ -1,0 +1,25 @@
+src/
+├── main.py                 # 主程序入口
+├── config/
+│   ├── __init__.py
+│   ├── settings.py         # 配置管理
+│   └── config.yaml         # 配置文件
+├── data_transfer/
+│   ├── __init__.py
+│   ├── model_client.py     # 模型数据获取客户端
+│   ├── cloud_client.py     # 阿里云上传客户端
+│   └── data_processor.py   # 数据处理模块
+├── utils/
+│   ├── __init__.py
+│   ├── logger.py           # 日志配置
+│   ├── retry.py            # 重试机制
+│   └── validator.py        # 数据验证
+└── scheduler/
+    ├── __init__.py
+    └── task_scheduler.py    # 任务调度器
+
+tests/                      # 测试文件
+requirements.txt            # 依赖包
+docker-compose.yml          # Docker部署(可选)
+.env                        # 环境变量
+README.md                   # 项目说明
