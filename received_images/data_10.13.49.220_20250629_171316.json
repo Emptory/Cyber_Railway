@@ -1,0 +1,18 @@
+{
+  "device_id": "embedded_device_001",
+  "timestamp": 1751188396,
+  "image_base64": "iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAAAAACIM/FCAAABM0lEQVR4nO3Yy27CMBAF0Jmo/23ly0FVu2ABjSEPP3rOIkKRGeYqThwTAQAAAAAAAAAAAAAAAAAAAAAAwOeybtitfmgjuR2genBTWRtie3xbX++k6NnyXo5uL0jkJDMruunstrPPJYaQMUeQjEmCVBCkN0sMIGcJUkOQ3izRv5wlSEwSJGcJEmMFyZ3v50t0LmOOIBlzBMndfz40lb/7xRxxq/uw2c1Pvt3h1MoYPMi+yZHRkVtvDQEAAPwneWCt8n1YY/gg5eHzOkuQ6/Msp1YvT8KdJA+t9rTvay5LHl+yNEmS55X+CdTqKUZrec6t0eM6Uir6e/mUXfsJUmpa+3O5WLtYEMvmiU3XLIrLBb9ROrnZS9UMKY0nVx5Z7EWYIVf2MkuQDnYmAAAAAAAAAAAxmDvjSx1R/350hwAAAABJRU5ErkJggg==",
+  "format": "png",
+  "shape": [
+    200,
+    200
+  ],
+  "original_dtype": "uint8",
+  "note": "Pixel values are normalized to 0-255 for visualization",
+  "status": "normal",
+  "data_source": "json_file",
+  "source_file": "c_prediction_000008.json",
+  "image_file": "image_10.13.49.220_20250629_171316.png",
+  "image_data": "iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAAAAACIM/FCAAABM0lEQVR4nO3Yy27CMBAF0Jmo/23ly0FVu2ABjSEPP3rOIkKRGeYqThwTAQAAAAAAAAAAAAAAAAAAAAAAwOeybtitfmgjuR2genBTWRtie3xbX++k6NnyXo5uL0jkJDMruunstrPPJYaQMUeQjEmCVBCkN0sMIGcJUkOQ3izRv5wlSEwSJGcJEmMFyZ3v50t0LmOOIBlzBMndfz40lb/7xRxxq/uw2c1Pvt3h1MoYPMi+yZHRkVtvDQEAAPwneWCt8n1YY/gg5eHzOkuQ6/Msp1YvT8KdJA+t9rTvay5LHl+yNEmS55X+CdTqKUZrec6t0eM6Uir6e/mUXfsJUmpa+3O5WLtYEMvmiU3XLIrLBb9ROrnZS9UMKY0nVx5Z7EWYIVf2MkuQDnYmAAAAAAAAAAAxmDvjSx1R/350hwAAAABJRU5ErkJggg==",
+  "image_format": "png"
+}

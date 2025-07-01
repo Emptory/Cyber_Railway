@@ -1,0 +1,47 @@
+/* 全局字体设置 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Inter:wght@300;400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: "Noto Sans SC", "Microsoft YaHei", "SimHei", "SimSun", "Arial Unicode MS", Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern" 1;
+  text-rendering: optimizeLegibility;
+}
+
+/* 确保所有文本元素都使用正确的字体 */
+h1, h2, h3, h4, h5, h6, p, div, span, a, button, input, textarea, label {
+  font-family: "Noto Sans SC", "Microsoft YaHei", "SimHei", "SimSun", "Arial Unicode MS", Arial, sans-serif !important;
+}
+
+/* 输入框中文支持 */
+input, textarea {
+  font-family: "Noto Sans SC", "Microsoft YaHei", "SimHei", "SimSun", "Arial Unicode MS", Arial, sans-serif !important;
+  ime-mode: auto;
+}
+
+/* 代码字体 */
+code, pre {
+  font-family: "Consolas", "Monaco", "Courier New", monospace;
+}
+
+/* 针对不同操作系统的字体回退 */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* Safari/Chrome */
+  * {
+    font-family: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
+  }
+}
+
+@-moz-document url-prefix() {
+  /* Firefox */
+  * {
+    font-family: "Noto Sans SC", "Microsoft YaHei", "SimHei", "SimSun", sans-serif !important;
+  }
+}

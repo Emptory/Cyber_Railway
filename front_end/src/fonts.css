@@ -1,0 +1,19 @@
+/* 本地字体备份方案 */
+@font-face {
+  font-family: 'ChineseFallback';
+  src: local('Microsoft YaHei'),
+       local('微软雅黑'),
+       local('SimHei'),
+       local('黑体'),
+       local('SimSun'),
+       local('宋体'),
+       local('Arial Unicode MS');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F, U+2B740-2B81F, U+2B820-2CEAF;
+}
+
+/* 全局字体回退策略 */
+* {
+  font-family: "Noto Sans SC", "ChineseFallback", "Microsoft YaHei", "微软雅黑", "SimHei", "黑体", "SimSun", "宋体", "Arial Unicode MS", Arial, sans-serif !important;
+}

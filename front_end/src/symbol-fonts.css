@@ -1,0 +1,23 @@
+/* ?????? CSS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap');
+
+/* ?????? */
+@font-face {
+  font-family: 'ChineseComplete';
+  src: local('Microsoft YaHei'),
+       local('????'),
+       local('SimHei'),
+       local('??'),
+       local('SimSun'),
+       local('??'),
+       local('Arial Unicode MS');
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F, U+2B740-2B81F, U+2B820-2CEAF;
+}
+
+/* ?????? */
+* {
+  font-family: "Noto Sans SC", "ChineseComplete", "Microsoft YaHei", "????", "SimHei", "??", "SimSun", "??", "Arial Unicode MS", Arial, sans-serif !important;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
