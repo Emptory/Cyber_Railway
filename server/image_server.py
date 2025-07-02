@@ -5,7 +5,8 @@ import datetime
 import os
 import threading
 import base64
-from typing import Dict, Any
+import glob
+from typing import Dict, Any, List
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import urllib.parse
 
@@ -20,11 +21,159 @@ class ImageDataServer:
         self.server_socket = None
         self.running = False
         self.latest_data = None  # 存储最新的图片数据
+        self.all_records = []    # 存储所有历史记录
         
         # 创建数据存储目录
         if not os.path.exists(self.data_dir):
             os.makedirs(self.data_dir)
             print(f"创建数据存储目录: {self.data_dir}")
+        
+        # 初始化时加载历史数据
+        self.load_historical_data()
+
+    def load_historical_data(self):
+        """加载历史数据"""
+        try:
+            json_files = glob.glob(os.path.join(self.data_dir, "data_*.json"))
+            self.all_records = []
+            
+            for json_file in sorted(json_files, reverse=True):  # 按时间倒序
+                try:
+                    with open(json_file, 'r', encoding='gb2312') as f:
+                        data = json.load(f)
+                        # 添加文件信息
+                        data['json_file'] = os.path.basename(json_file)
+                        self.all_records.append(data)
+                except Exception as e:
+                    self.log_message(f"加载历史文件 {json_file} 失败: {e}")
+            
+            self.log_message(f"加载了 {len(self.all_records)} 条历史记录")
+        except Exception as e:
+            self.log_message(f"加载历史数据失败: {e}")
+
+    def get_detection_statistics(self) -> Dict[str, Any]:
+        """生成检测统计数据"""
+        try:
+            total_inspections = len(self.all_records)
+            
+            # 模拟缺陷检测逻辑（实际应该基于AI分析结果）
+            defect_records = []
+            for record in self.all_records:
+                # 这里可以根据实际的AI分析结果来判断是否有缺陷
+                # 目前使用模拟数据
+                if 'analysis_result' in record or len(defect_records) < total_inspections * 0.36:
+                    defect_records.append(record)
+            
+            total_defects = len(defect_records)
+            
+            # 缺陷类型分布（模拟）
+            defects_by_type = {
+                "表面裂纹": int(total_defects * 0.51),
+                "磨损": int(total_defects * 0.31), 
+                "腐蚀点": int(total_defects * 0.18)
+            }
+            
+            # 严重程度分布（模拟）
+            defects_by_severity = {
+                "重度": int(total_defects * 0.13),
+                "中度": int(total_defects * 0.38),
+                "轻度": int(total_defects * 0.49)
+            }
+            
+            # 近一周趋势
+            week_trend = self.get_weekly_trend()
+            
+            # 月度对比
+            monthly_comparison = self.get_monthly_comparison()
+            
+            return {
+                "totalInspections": total_inspections,
+                "totalDefects": total_defects,
+                "defectsByType": defects_by_type,
+                "defectsBySeverity": defects_by_severity,
+                "weeklyTrend": week_trend,
+                "monthlyComparison": monthly_comparison,
+                "lastUpdated": datetime.datetime.now().isoformat()
+            }
+        except Exception as e:
+            self.log_message(f"生成统计数据失败: {e}")
+            return {}
+
+    def get_weekly_trend(self) -> List[Dict[str, Any]]:
+        """获取近一周的检测趋势"""
+        try:
+            # 获取最近7天的日期
+            today = datetime.date.today()
+            week_data = []
+            
+            for i in range(6, -1, -1):  # 7天，从6天前到今天
+                date = today - datetime.timedelta(days=i)
+                date_str = date.strftime("%Y-%m-%d")
+                
+                # 统计该天的检测记录
+                day_records = [r for r in self.all_records 
+                             if r.get('json_file', '').find(date.strftime("%Y%m%d")) != -1]
+                
+                # 模拟缺陷数量（实际应该基于AI分析）
+                defects = len(day_records) // 3 if day_records else 0
+                
+                week_data.append({
+                    "date": date_str,
+                    "defects": defects
+                })
+            
+            return week_data
+        except Exception as e:
+            self.log_message(f"生成周趋势数据失败: {e}")
+            return []
+
+    def get_monthly_comparison(self) -> List[Dict[str, Any]]:
+        """获取月度对比数据"""
+        try:
+            # 模拟6个月的数据
+            months = ["一月", "二月", "三月", "四月", "五月", "六月"]
+            base_inspections = [198, 203, 215, 231, 228, len(self.all_records)]
+            base_defects = [67, 71, 78, 82, 85, len(self.all_records) // 3]
+            
+            monthly_data = []
+            for i, month in enumerate(months):
+                monthly_data.append({
+                    "month": month,
+                    "inspections": base_inspections[i],
+                    "defects": base_defects[i]
+                })
+            
+            return monthly_data
+        except Exception as e:
+            self.log_message(f"生成月度对比数据失败: {e}")
+            return []
+
+    def get_recent_records(self, limit: int = 20) -> List[Dict[str, Any]]:
+        """获取最近的检测记录"""
+        try:
+            recent = self.all_records[:limit]
+            
+            # 为每条记录添加摘要信息
+            for record in recent:
+                if 'summary' not in record:
+                    # 生成摘要信息
+                    timestamp = record.get('timestamp', 'unknown')
+                    if isinstance(timestamp, (int, float)):
+                        time_str = datetime.datetime.fromtimestamp(timestamp).strftime("%Y-%m-%d %H:%M:%S")
+                    else:
+                        time_str = str(timestamp)
+                    
+                    record['summary'] = {
+                        "time": time_str,
+                        "status": "检测完成",
+                        "hasDefect": len(recent) > 0 and (hash(record.get('json_file', '')) % 3 == 0),  # 模拟缺陷检测
+                        "confidence": round(85 + (hash(record.get('json_file', '')) % 15), 1)  # 模拟置信度
+                    }
+            
+            return recent
+        except Exception as e:
+            self.log_message(f"获取最近记录失败: {e}")
+            return []
 
     def log_message(self, message: str):
         """记录日志消息"""
@@ -95,6 +244,8 @@ class ImageDataServer:
             
             # 更新最新数据（用于web展示）
             self.latest_data = data.copy()
+            # 重新加载历史数据
+            self.load_historical_data()
             
             self.log_message(f"数据已保存到: {json_filepath}")
             return json_filepath
@@ -265,17 +416,128 @@ class ImageWebServer:
                     self.send_html_page()
                 elif self.path == '/api/latest':
                     self.send_latest_data()
+                elif self.path == '/api/monitor/current':
+                    self.send_current_monitor_data()
+                elif self.path == '/api/monitor/history':
+                    self.send_history_data()
+                elif self.path == '/api/reports/statistics':
+                    self.send_statistics_data()
                 elif self.path.startswith('/images/'):
                     self.send_image_file()
+                elif self.path == '/api/statistics':
+                    self.send_statistics()
+                elif self.path == '/api/history':
+                    self.send_history()
                 else:
                     self.send_error(404)
 
-            def send_html_page(self):
-                html_content = self.get_html_content()
+            def do_OPTIONS(self):
+                # 处理跨域预检请求
                 self.send_response(200)
-                self.send_header('Content-type', 'text/html; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+                self.send_header('Access-Control-Allow-Headers', 'Content-Type')
                 self.end_headers()
-                self.wfile.write(html_content.encode('utf-8'))
+
+            def send_current_monitor_data(self):
+                """发送当前监控数据（原始图像、分析图像、缺陷报告）"""
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                
+                if image_server.latest_data:
+                    # 构造监控数据格式
+                    monitor_data = {
+                        "originalImage": {
+                            "url": f"/images/{image_server.latest_data.get('image_file', '')}" if image_server.latest_data.get('image_file') else None,
+                            "base64": image_server.latest_data.get('image_data') or image_server.latest_data.get('image_base64'),
+                            "format": image_server.latest_data.get('image_format') or image_server.latest_data.get('format', 'png'),
+                            "timestamp": image_server.latest_data.get('timestamp', int(datetime.datetime.now().timestamp()))
+                        },
+                        "analyzedImage": {
+                            # 模拟分析图像（实际应该是AI处理后的图像）
+                            "url": f"/images/{image_server.latest_data.get('image_file', '')}" if image_server.latest_data.get('image_file') else None,
+                            "base64": image_server.latest_data.get('image_data') or image_server.latest_data.get('image_base64'),
+                            "format": image_server.latest_data.get('image_format') or image_server.latest_data.get('format', 'png'),
+                            "confidence": 92.5
+                        },
+                        "defectReport": {
+                            "hasDefect": True,  # 模拟缺陷检测结果
+                            "defectType": "表面裂纹",
+                            "severity": "中度",
+                            "confidence": 89.3,
+                            "location": {"x": 245, "y": 167, "width": 128, "height": 89},
+                            "description": "检测到钢轨表面存在长度约5cm的横向裂纹，建议及时维修",
+                            "timestamp": image_server.latest_data.get('timestamp', int(datetime.datetime.now().timestamp()))
+                        }
+                    }
+                else:
+                    monitor_data = {"status": "no_data"}
+                
+                response = json.dumps(monitor_data, ensure_ascii=False)
+                self.wfile.write(response.encode('utf-8'))
+
+            def send_history_data(self):
+                """发送历史检测记录"""
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                
+                recent_records = image_server.get_recent_records(20)
+                
+                # 转换为前端需要的格式
+                history_data = []
+                for record in recent_records:
+                    history_item = {
+                        "id": record.get('json_file', ''),
+                        "image": {
+                            "url": f"/images/{record.get('image_file', '')}" if record.get('image_file') else None,
+                            "base64": record.get('image_data') or record.get('image_base64'),
+                            "format": record.get('image_format') or record.get('format', 'png')
+                        },
+                        "summary": record.get('summary', {}),
+                        "timestamp": record.get('timestamp', int(datetime.datetime.now().timestamp()))
+                    }
+                    history_data.append(history_item)
+                
+                response = json.dumps(history_data, ensure_ascii=False)
+                self.wfile.write(response.encode('utf-8'))
+
+            def send_statistics_data(self):
+                """发送统计分析数据"""
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                
+                statistics = image_server.get_detection_statistics()
+                response = json.dumps(statistics, ensure_ascii=False)
+                self.wfile.write(response.encode('utf-8'))
+
+            def send_html_page(self):
+                # 简化的API信息页面
+                api_info = {
+                    "service": "Cyber Railway Detection API",
+                    "status": "running",
+                    "endpoints": {
+                        "/api/monitor/current": "获取当前监控数据",
+                        "/api/monitor/history": "获取历史检测记录", 
+                        "/api/reports/statistics": "获取统计分析数据",
+                        "/images/{filename}": "获取图片文件"
+                    },
+                    "frontend_url": "http://localhost:5173",
+                    "timestamp": datetime.datetime.now().isoformat()
+                }
+                
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                
+                response = json.dumps(api_info, ensure_ascii=False, indent=2)
+                self.wfile.write(response.encode('utf-8'))
 
             def send_latest_data(self):
                 self.send_response(200)
@@ -309,138 +571,29 @@ class ImageWebServer:
                 else:
                     self.send_error(404)
 
-            def get_html_content(self):
-                return '''
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>嵌入式设备数据展示</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f0f0f0; }
-        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; }
-        .header { text-align: center; margin-bottom: 30px; }
-        .data-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
-        .image-panel { text-align: center; }
-        .info-panel { padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
-        .rendered-image { max-width: 100%; height: auto; border: 2px solid #333; border-radius: 5px; }
-        .status { padding: 10px; border-radius: 5px; margin: 10px 0; }
-        .status.success { background-color: #d4edda; color: #155724; }
-        .status.error { background-color: #f8d7da; color: #721c24; }
-        .refresh-btn { background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
-        .refresh-btn:hover { background-color: #0056b3; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>? Cyber Railway 数据展示</h1>
-            <button class="refresh-btn" onclick="loadLatestData()">刷新数据</button>
-        </div>
-        
-        <div id="status" class="status">等待数据...</div>
-        
-        <div class="data-panel">
-            <div class="image-panel">
-                <h3>渲染图片</h3>
-                <img id="renderedImage" class="rendered-image" src="" alt="等待图片数据..." style="display:none;">
-                <div id="noImage">暂无图片数据</div>
-            </div>
-            
-            <div class="info-panel">
-                <h3>设备信息</h3>
-                <div id="deviceInfo">
-                    <p><strong>设备ID:</strong> <span id="deviceId">-</span></p>
-                    <p><strong>时间戳:</strong> <span id="timestamp">-</span></p>
-                    <p><strong>图片格式:</strong> <span id="imageFormat">-</span></p>
-                    <p><strong>数据大小:</strong> <span id="dataSize">-</span></p>
-                </div>
+            def send_statistics(self):
+                """发送检测统计数据"""
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
                 
-                <h3>其他数据</h3>
-                <div id="additionalData"></div>
-            </div>
-        </div>
-    </div>
+                statistics = image_server.get_detection_statistics()
+                response = json.dumps(statistics, ensure_ascii=False)
+                self.wfile.write(response.encode('utf-8'))
 
-    <script>
-        function loadLatestData() {
-            fetch('/api/latest')
-                .then(response => response.json())
-                .then(data => {
-                    if (data.status === 'no_data') {
-                        document.getElementById('status').className = 'status error';
-                        document.getElementById('status').textContent = '暂无数据';
-                        return;
-                    }
-                    
-                    document.getElementById('status').className = 'status success';
-                    document.getElementById('status').textContent = '数据加载成功 - ' + new Date().toLocaleString();
-                    
-                    // 更新设备信息
-                    document.getElementById('deviceId').textContent = data.device_id || '-';
-                    document.getElementById('timestamp').textContent = data.timestamp ? new Date(data.timestamp * 1000).toLocaleString() : '-';
-                    document.getElementById('imageFormat').textContent = data.image_format || data.format || '-';
-                    
-                    // 计算数据大小（优先使用image_data，其次使用image_base64）
-                    let dataSize = '-';
-                    if (data.image_data) {
-                        dataSize = data.image_data.length + ' 字符';
-                    } else if (data.image_base64) {
-                        dataSize = data.image_base64.length + ' 字符';
-                    }
-                    document.getElementById('dataSize').textContent = dataSize;
-                    
-                    // 显示图片
-                    if (data.image_file) {
-                        const img = document.getElementById('renderedImage');
-                        img.src = '/images/' + data.image_file;
-                        img.style.display = 'block';
-                        document.getElementById('noImage').style.display = 'none';
-                    } else if (data.image_data) {
-                        const img = document.getElementById('renderedImage');
-                        img.src = 'data:image/' + (data.image_format || 'png') + ';base64,' + data.image_data;
-                        img.style.display = 'block';
-                        document.getElementById('noImage').style.display = 'none';
-                    } else if (data.image_base64) {
-                        // 处理嵌入式团队格式
-                        const img = document.getElementById('renderedImage');
-                        img.src = 'data:image/' + (data.format || 'png') + ';base64,' + data.image_base64;
-                        img.style.display = 'block';
-                        document.getElementById('noImage').style.display = 'none';
-                    }
-                    
-                    // 显示其他数据
-                    const additionalDiv = document.getElementById('additionalData');
-                    additionalDiv.innerHTML = '';
-                    
-                    Object.keys(data).forEach(key => {
-                        if (!['device_id', 'timestamp', 'image_data', 'image_format', 'image_file', 'image_base64', 'format'].includes(key)) {
-                            const p = document.createElement('p');
-                            if (key === 'shape') {
-                                p.innerHTML = '<strong>图片尺寸:</strong> ' + data[key][0] + ' × ' + data[key][1];
-                            } else {
-                                p.innerHTML = '<strong>' + key + ':</strong> ' + JSON.stringify(data[key]);
-                            }
-                            additionalDiv.appendChild(p);
-                        }
-                    });
-                })
-                .catch(error => {
-                    document.getElementById('status').className = 'status error';
-                    document.getElementById('status').textContent = '加载数据失败: ' + error.message;
-                });
-        }
-        
-        // 页面加载时获取数据
-        loadLatestData();
-        
-        // 每5秒自动刷新
-        setInterval(loadLatestData, 5000);
-    </script>
-</body>
-</html>
-                '''
+            def send_history(self):
+                """发送历史记录数据"""
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                
+                # 获取最近的20条记录
+                recent_records = image_server.get_recent_records(limit=20)
+                
+                response = json.dumps(recent_records, ensure_ascii=False)
+                self.wfile.write(response.encode('utf-8'))
         
         return ImageHandler
 

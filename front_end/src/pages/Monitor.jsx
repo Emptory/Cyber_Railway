@@ -2,7 +2,13 @@ import React, { useState, useEffect } from 'react';
 
 const Monitor = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
-  const [systemStatus, setSystemStatus] = useState(String.fromCharCode(0x6B63,0x5E38,0x8FD0,0x884C)); // 正常运行
+  const [activeTab, setActiveTab] = useState('realtime'); // 'realtime', 'history'
+  const [analysisData, setAnalysisData] = useState({
+    originalImage: null,
+    analyzedImage: null,
+    analysisResults: []
+  });
+  const [historyData, setHistoryData] = useState([]);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -11,77 +17,141 @@ const Monitor = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const systemMetrics = [
-    {
-      title: String.fromCharCode(0x7F51,0x7EDC,0x5B89,0x5168), // 网络安全
-      value: "98.7%",
-      status: String.fromCharCode(0x826F,0x597D), // 良好
-      icon: "",
-      color: "#00ff00"
-    },
-    {
-      title: String.fromCharCode(0x7CFB,0x7EDF,0x6027,0x80FD), // 系统性能
-      value: "94.2%",
-      status: String.fromCharCode(0x826F,0x597D), // 良好
-      icon: "",
-      color: "#00ff00"
-    },
-    {
-      title: String.fromCharCode(0x5A01,0x80C1,0x68C0,0x6D4B), // 威胁检测
-      value: "12",
-      status: String.fromCharCode(0x6D3B,0x8DC3), // 活跃
-      icon: "",
-      color: "#ffff00"
-    },
-    {
-      title: String.fromCharCode(0x6570,0x636E,0x5B8C,0x6574,0x6027), // 数据完整性
-      value: "99.9%",
-      status: String.fromCharCode(0x4F18,0x79C0), // 优秀
-      icon: "",
-      color: "#00ff00"
-    }
-  ];
+  // Mock data simulation function for backend data retrieval
+  useEffect(() => {
+    // 加载当前监控数据
+    const loadCurrentData = async () => {
+      try {
+        const response = await fetch('http://localhost:8081/api/monitor/current');
+        const data = await response.json();
+        
+        if (data.status !== 'no_data') {
+          // 使用后端数据
+          const backendData = {
+            originalImage: data.originalImage?.base64 ? 
+              `data:image/${data.originalImage.format};base64,${data.originalImage.base64}` : 
+              "/images/pexels-tuurt-179153.jpg",
+            analyzedImage: data.analyzedImage?.base64 ? 
+              `data:image/${data.analyzedImage.format};base64,${data.analyzedImage.base64}` : 
+              "/images/pexels-photospublic-1181202.jpg",
+            analysisResults: data.defectReport ? [{
+              defectType: data.defectReport.defectType || String.fromCharCode(0x8868,0x9762,0x88C2,0x7EB9),
+              location: String.fromCharCode(0x8DDD,0x79BB,0x8D77,0x70B9,0x0020,0x0031,0x0032,0x0035,0x002E,0x0033,0x006D),
+              severity: data.defectReport.severity || String.fromCharCode(0x4E2D,0x5EA6),
+              size: String.fromCharCode(0x957F,0x5EA6,0x003A,0x0020,0x0038,0x002E,0x0035,0x0063,0x006D,0x002C,0x0020,0x6DF1,0x5EA6,0x003A,0x0020,0x0032,0x002E,0x0033,0x006D,0x006D),
+              recommendation: data.defectReport.description || String.fromCharCode(0x5EFA,0x8BAE,0x5728,0x4E0B,0x6B21,0x7EF4,0x62A4,0x7A97,0x53E3,0x671F,0x8FDB,0x884C,0x4FEE,0x590D)
+            }] : []
+          };
+          setAnalysisData(backendData);
+        } else {
+          // 使用Mock数据作为备选
+          const mockData = {
+            originalImage: "/images/pexels-tuurt-179153.jpg",
+            analyzedImage: "/images/pexels-photospublic-1181202.jpg",
+            analysisResults: [
+              {
+                defectType: String.fromCharCode(0x8868,0x9762,0x88C2,0x7EB9),
+                location: String.fromCharCode(0x8DDD,0x79BB,0x8D77,0x70B9,0x0020,0x0031,0x0032,0x0035,0x002E,0x0033,0x006D),
+                severity: String.fromCharCode(0x4E2D,0x5EA6),
+                size: String.fromCharCode(0x957F,0x5EA6,0x003A,0x0020,0x0038,0x002E,0x0035,0x0063,0x006D,0x002C,0x0020,0x6DF1,0x5EA6,0x003A,0x0020,0x0032,0x002E,0x0033,0x006D,0x006D),
+                recommendation: String.fromCharCode(0x5EFA,0x8BAE,0x5728,0x4E0B,0x6B21,0x7EF4,0x62A4,0x7A97,0x53E3,0x671F,0x8FDB,0x884C,0x4FEE,0x590D)
+              }
+            ]
+          };
+          setAnalysisData(mockData);
+        }
+      } catch (error) {
+        console.error('加载监控数据失败:', error);
+        // 使用Mock数据作为备选
+        const mockData = {
+          originalImage: "/images/pexels-tuurt-179153.jpg",
+          analyzedImage: "/images/pexels-photospublic-1181202.jpg",
+          analysisResults: [
+            {
+              defectType: String.fromCharCode(0x8868,0x9762,0x88C2,0x7EB9),
+              location: String.fromCharCode(0x8DDD,0x79BB,0x8D77,0x70B9,0x0020,0x0031,0x0032,0x0035,0x002E,0x0033,0x006D),
+              severity: String.fromCharCode(0x4E2D,0x5EA6),
+              size: String.fromCharCode(0x957F,0x5EA6,0x003A,0x0020,0x0038,0x002E,0x0035,0x0063,0x006D,0x002C,0x0020,0x6DF1,0x5EA6,0x003A,0x0020,0x0032,0x002E,0x0033,0x006D,0x006D),
+              recommendation: String.fromCharCode(0x5EFA,0x8BAE,0x5728,0x4E0B,0x6B21,0x7EF4,0x62A4,0x7A97,0x53E3,0x671F,0x8FDB,0x884C,0x4FEE,0x590D)
+            }
+          ]
+        };
+        setAnalysisData(mockData);
+      }
+    };
 
-  const recentAlerts = [
-    {
-      time: "14:32:15",
-      type: String.fromCharCode(0x8B66,0x544A), // 警告
-      message: String.fromCharCode(0x5728,0x8F68,0x9053,0x7B2C,0x0037,0x6BB5,0x68C0,0x6D4B,0x5230,0x5F02,0x5E38,0x7F51,0x7EDC,0x6D41,0x91CF), // 在轨道第7段检测到异常网络流量
-      severity: String.fromCharCode(0x4E2D,0x7EA7) // 中级
-    },
-    {
-      time: "14:28:42",
-      type: String.fromCharCode(0x4FE1,0x606F), // 信息
-      message: String.fromCharCode(0x4FE1,0x53F7,0x63A7,0x5236,0x5355,0x5143,0x0033,0x5B9A,0x671F,0x7EF4,0x62A4,0x5B8C,0x6210), // 信号控制单元3定期维护完成
-      severity: String.fromCharCode(0x4F4E,0x7EA7) // 低级
-    },
-    {
-      time: "14:25:18",
-      type: String.fromCharCode(0x8B66,0x62A5), // 警报
-      message: String.fromCharCode(0x9632,0x706B,0x5899,0x963B,0x6B62,0x4E86,0x0031,0x0035,0x6B21,0x672A,0x6388,0x6743,0x8BBF,0x95EE,0x5C1D,0x8BD5), // 防火墙阻止了15次未授权访问尝试
-      severity: String.fromCharCode(0x9AD8,0x7EA7) // 高级
-    },
-    {
-      time: "14:22:05",
-      type: String.fromCharCode(0x4FE1,0x606F), // 信息
-      message: String.fromCharCode(0x7CFB,0x7EDF,0x5907,0x4EFD,0x6210,0x529F,0x5B8C,0x6210), // 系统备份成功完成
-      severity: String.fromCharCode(0x4F4E,0x7EA7) // 低级
-    }
-  ];
+    // 加载历史记录
+    const loadHistoryData = async () => {
+      try {
+        const response = await fetch('http://localhost:8081/api/monitor/history');
+        const data = await response.json();
+        
+        if (Array.isArray(data) && data.length > 0) {
+          // 转换后端数据格式
+          const convertedHistory = data.map((item, index) => ({
+            id: index + 1,
+            timestamp: item.summary?.time || new Date(item.timestamp * 1000).toLocaleString(),
+            originalImage: item.image?.base64 ? 
+              `data:image/${item.image.format};base64,${item.image.base64}` : 
+              "/images/pexels-tuurt-179153.jpg",
+            analyzedImage: item.image?.base64 ? 
+              `data:image/${item.image.format};base64,${item.image.base64}` : 
+              "/images/pexels-photospublic-1181202.jpg",
+            defectsCount: item.summary?.hasDefect ? 1 : 0,
+            severity: item.summary?.hasDefect ? String.fromCharCode(0x4E2D,0x5EA6) : String.fromCharCode(0x6B63,0x5E38),
+            location: String.fromCharCode(0x8DEF,0x6BB5,0x0041,0x0020,0x004B,0x004D,0x0031,0x0032,0x0035)
+          }));
+          setHistoryData(convertedHistory);
+        } else {
+          // 使用Mock数据
+          const mockHistoryData = [
+            {
+              id: 1,
+              timestamp: "2025-07-03 14:30:15",
+              originalImage: "/images/pexels-tuurt-179153.jpg",
+              analyzedImage: "/images/pexels-photospublic-1181202.jpg",
+              defectsCount: 2,
+              severity: String.fromCharCode(0x4E2D,0x5EA6),
+              location: String.fromCharCode(0x8DEF,0x6BB5,0x0041,0x0020,0x004B,0x004D,0x0031,0x0032,0x0035)
+            }
+          ];
+          setHistoryData(mockHistoryData);
+        }
+      } catch (error) {
+        console.error('加载历史数据失败:', error);
+        // 使用Mock数据
+        const mockHistoryData = [
+          {
+            id: 1,
+            timestamp: "2025-07-03 14:30:15",
+            originalImage: "/images/pexels-tuurt-179153.jpg",
+            analyzedImage: "/images/pexels-photospublic-1181202.jpg",
+            defectsCount: 2,
+            severity: String.fromCharCode(0x4E2D,0x5EA6),
+            location: String.fromCharCode(0x8DEF,0x6BB5,0x0041,0x0020,0x004B,0x004D,0x0031,0x0032,0x0035)
+          }
+        ];
+        setHistoryData(mockHistoryData);
+      }
+    };
 
-  const networkNodes = [
-    { id: 1, name: String.fromCharCode(0x4E2D,0x592E,0x63A7,0x5236), status: String.fromCharCode(0x5728,0x7EBF), x: 50, y: 30 }, // 中央控制, 在线
-    { id: 2, name: String.fromCharCode(0x8F66,0x7AD9) + " A", status: String.fromCharCode(0x5728,0x7EBF), x: 20, y: 60 }, // 车站A, 在线
-    { id: 3, name: String.fromCharCode(0x8F66,0x7AD9) + " B", status: String.fromCharCode(0x5728,0x7EBF), x: 80, y: 60 }, // 车站B, 在线
-    { id: 4, name: String.fromCharCode(0x4FE1,0x53F7,0x5854) + " 1", status: String.fromCharCode(0x5728,0x7EBF), x: 35, y: 80 }, // 信号塔1, 在线
-    { id: 5, name: String.fromCharCode(0x4FE1,0x53F7,0x5854) + " 2", status: String.fromCharCode(0x7EF4,0x62A4,0x4E2D), x: 65, y: 80 } // 信号塔2, 维护中
-  ];
+    loadCurrentData();
+    loadHistoryData();
+
+    // 设置定时刷新（每10秒）
+    const interval = setInterval(() => {
+      loadCurrentData();
+      loadHistoryData();
+    }, 10000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   const getSeverityColor = (severity) => {
     switch (severity) {
-      case String.fromCharCode(0x9AD8,0x7EA7): return '#ff4444'; // 高级
-      case String.fromCharCode(0x4E2D,0x7EA7): return '#ffaa00'; // 中级
-      case String.fromCharCode(0x4F4E,0x7EA7): return '#00ff00'; // 低级
+      case String.fromCharCode(0x91CD,0x5EA6): return '#ff4444'; // 重度
+      case String.fromCharCode(0x4E2D,0x5EA6): return '#ffaa00'; // 中度
+      case String.fromCharCode(0x8F7B,0x5EA6): return '#00ff00'; // 轻度
       default: return '#cccccc';
     }
   };
@@ -99,193 +169,402 @@ const Monitor = () => {
         background: '#1a1a1a',
         padding: '20px',
         borderRadius: '10px',
-        marginBottom: '30px',
-        border: '1px solid #333',
+        marginBottom: '20px',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center'
       }}>
         <div>
-          <h1 style={{ color: '#00ffff', margin: '0 0 10px 0', fontSize: '2rem' }}>
-            {String.fromCharCode(0x94C1,0x8DEF,0x7CFB,0x7EDF,0x76D1,0x63A7,0x4E2D,0x5FC3)} {/* 铁路系统监控中心 */}
+          <h1 style={{ 
+            color: '#00ffff', 
+            margin: 0, 
+            fontSize: '2rem' 
+          }}>
+            {String.fromCharCode(0x8F68,0x9053,0x63A2,0x4F24,0x5B9E,0x65F6,0x76D1,0x63A7)} {/* 轨道探伤实时监控 */}
           </h1>
-          <p style={{ margin: 0, color: '#cccccc' }}>
-            {String.fromCharCode(0x5B9E,0x65F6,0x72B6,0x6001)}: {systemStatus} {/* 实时状态 */}
+          <p style={{ 
+            color: '#cccccc', 
+            margin: '5px 0 0 0' 
+          }}>
+            {String.fromCharCode(0x7CFB,0x7EDF,0x72B6,0x6001,0x003A,0x0020)} {/* 系统状态: */}
+            {String.fromCharCode(0x6B63,0x5E38,0x8FD0,0x884C)} {/* 正常运行 */}
           </p>
         </div>
         <div style={{ textAlign: 'right' }}>
-          <div style={{ fontSize: '1.5rem', color: '#00ffff', marginBottom: '5px' }}>
+          <div style={{ 
+            color: '#00ffff', 
+            fontSize: '1.5rem' 
+          }}>
             {currentTime.toLocaleTimeString()}
           </div>
-          <div style={{ color: '#cccccc', fontSize: '0.9rem' }}>
+          <div style={{ 
+            color: '#cccccc', 
+            fontSize: '0.9rem' 
+          }}>
             {currentTime.toLocaleDateString()}
           </div>
         </div>
       </div>
 
-      {/* 系统指标网格 */}
-      <div style={{ 
-        display: 'grid', 
-        gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', 
-        gap: '20px', 
-        marginBottom: '30px' 
-      }}>
-        {systemMetrics.map((metric, index) => (
-          <div
-            key={index}
-            style={{
-              background: '#1a1a1a',
-              padding: '25px',
-              borderRadius: '10px',
-              border: '1px solid #333',
-              textAlign: 'center',
-              transition: 'transform 0.3s'
-            }}
-            onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.02)'}
-            onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'
-            }
-          >
-            <div style={{ fontSize: '2rem', marginBottom: '10px' }}>{metric.icon}</div>
-            <h3 style={{ color: '#ffffff', margin: '0 0 10px 0' }}>{metric.title}</h3>
-            <div style={{ fontSize: '2rem', color: metric.color, marginBottom: '10px', fontWeight: 'bold' }}>
-              {metric.value}
-            </div>
-            <div style={{ 
-              padding: '5px 15px', 
-              borderRadius: '20px', 
-              fontSize: '0.8rem', 
-              background: metric.color,
-              color: '#000000',
-              display: 'inline-block'
-            }}>
-              {metric.status}
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '30px' }}>
-        {/* 最近警报 */}
-        <div style={{
-          background: '#1a1a1a',
-          padding: '25px',
-          borderRadius: '10px',
-          border: '1px solid #333'
-        }}>
-          <h2 style={{ color: '#00ffff', marginBottom: '20px' }}>
-            {String.fromCharCode(0x6700,0x8FD1,0x8B66,0x62A5)} {/* 最近警报 */}
-          </h2>
-          <div style={{ maxHeight: '400px', overflowY: 'auto' }}>
-            {recentAlerts.map((alert, index) => (
-              <div
-                key={index}
-                style={{
-                  background: '#2a2a2a',
-                  padding: '15px',
-                  marginBottom: '10px',
-                  borderRadius: '8px',
-                  borderLeft: `4px solid ${getSeverityColor(alert.severity)}`
-                }}
-              >
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '8px' }}>
-                  <span style={{ 
-                    background: getSeverityColor(alert.severity),
-                    color: '#000000',
-                    padding: '3px 8px',
-                    borderRadius: '12px',
-                    fontSize: '0.8rem',
-                    fontWeight: 'bold'
-                  }}>
-                    {alert.type}
-                  </span>
-                  <span style={{ color: '#cccccc', fontSize: '0.9rem' }}>{alert.time}</span>
-                </div>
-                <p style={{ margin: 0, color: '#ffffff', fontSize: '0.95rem' }}>{alert.message}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* 网络拓扑 */}
-        <div style={{
-          background: '#1a1a1a',
-          padding: '25px',
-          borderRadius: '10px',
-          border: '1px solid #333'
-        }}>
-          <h2 style={{ color: '#00ffff', marginBottom: '20px' }}>
-            {String.fromCharCode(0x7F51,0x7EDC,0x62D3,0x6251)} {/* 网络拓扑 */}
-          </h2>
-          <div style={{ 
-            position: 'relative', 
-            height: '300px', 
-            background: '#2a2a2a', 
-            borderRadius: '8px',
-            border: '1px solid #444'
-          }}>
-            <svg width="100%" height="100%" style={{ position: 'absolute', top: 0, left: 0 }}>
-              {/* 连接线 */}
-              <line x1="50%" y1="30%" x2="20%" y2="60%" stroke="#00ffff" strokeWidth="2" />
-              <line x1="50%" y1="30%" x2="80%" y2="60%" stroke="#00ffff" strokeWidth="2" />
-              <line x1="20%" y1="60%" x2="35%" y2="80%" stroke="#00ffff" strokeWidth="2" />
-              <line x1="80%" y1="60%" x2="65%" y2="80%" stroke="#ffaa00" strokeWidth="2" strokeDasharray="5,5" />
-            </svg>
-            
-            {networkNodes.map((node, index) => (
-              <div
-                key={index}
-                style={{
-                  position: 'absolute',
-                  left: `${node.x}%`,
-                  top: `${node.y}%`,
-                  transform: 'translate(-50%, -50%)',
-                  background: node.status === String.fromCharCode(0x5728,0x7EBF) ? '#00ff00' : '#ffaa00', // 在线 : 其他
-                  color: '#000000',
-                  padding: '8px 12px',
-                  borderRadius: '20px',
-                  fontSize: '0.8rem',
-                  fontWeight: 'bold',
-                  textAlign: 'center',
-                  minWidth: '80px',
-                  border: '2px solid #ffffff'
-                }}
-              >
-                <div>{node.name}</div>
-                <div style={{ fontSize: '0.7rem', marginTop: '2px' }}>{node.status}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* 系统日志 */}
+      {/* 导航标签 */}
       <div style={{
         background: '#1a1a1a',
-        padding: '25px',
+        padding: '10px 20px',
         borderRadius: '10px',
-        border: '1px solid #333',
-        marginTop: '30px'
+        marginBottom: '20px',
+        display: 'flex',
+        gap: '20px'
       }}>
-        <h2 style={{ color: '#00ffff', marginBottom: '20px' }}>
-          {String.fromCharCode(0x7CFB,0x7EDF,0x65E5,0x5FD7)} {/* 系统日志 */}
-        </h2>
-        <div style={{
-          background: '#000000',
-          padding: '20px',
-          borderRadius: '8px',
-          fontFamily: 'monospace',
-          fontSize: '0.9rem',
-          height: '200px',
-          overflowY: 'auto',
-          color: '#00ff00'
-        }}>
-          <div>[{currentTime.toLocaleTimeString()}] {String.fromCharCode(0x7CFB,0x7EDF,0x521D,0x59CB,0x5316,0x5B8C,0x6210)}</div>
-          <div>[{new Date(currentTime.getTime() - 1000).toLocaleTimeString()}] {String.fromCharCode(0x7F51,0x7EDC,0x8FDE,0x63A5,0x6B63,0x5E38)}</div>
-          <div>[{new Date(currentTime.getTime() - 2000).toLocaleTimeString()}] {String.fromCharCode(0x9632,0x706B,0x5899,0x72B6,0x6001,0x6B63,0x5E38)}</div>
-          <div>[{new Date(currentTime.getTime() - 3000).toLocaleTimeString()}] {String.fromCharCode(0x6570,0x636E,0x5E93,0x8FDE,0x63A5,0x6210,0x529F)}</div>
-          <div>[{new Date(currentTime.getTime() - 4000).toLocaleTimeString()}] {String.fromCharCode(0x7528,0x6237,0x8EAB,0x4EFD,0x9A8C,0x8BC1,0x670D,0x52A1,0x542F,0x52A8)}</div>
-        </div>
+        <button
+          onClick={() => setActiveTab('realtime')}
+          style={{
+            padding: '10px 20px',
+            border: 'none',
+            borderRadius: '5px',
+            background: activeTab === 'realtime' ? '#00ffff' : 'transparent',
+            color: activeTab === 'realtime' ? '#000' : '#fff',
+            cursor: 'pointer',
+            fontSize: '1rem',
+            transition: 'all 0.3s'
+          }}
+        >
+          {String.fromCharCode(0x5B9E,0x65F6,0x76D1,0x63A7)} {/* 实时监控 */}
+        </button>
+        <button
+          onClick={() => setActiveTab('history')}
+          style={{
+            padding: '10px 20px',
+            border: 'none',
+            borderRadius: '5px',
+            background: activeTab === 'history' ? '#00ffff' : 'transparent',
+            color: activeTab === 'history' ? '#000' : '#fff',
+            cursor: 'pointer',
+            fontSize: '1rem',
+            transition: 'all 0.3s'
+          }}
+        >
+          {String.fromCharCode(0x5386,0x53F2,0x8BB0,0x5F55)} {/* 历史记录 */}
+        </button>
       </div>
+
+      {/* 实时监控内容 */}
+      {activeTab === 'realtime' && (
+        <div>
+          {/* 图像显示区域 */}
+          <div style={{
+            background: '#1a1a1a',
+            padding: '30px',
+            borderRadius: '10px',
+            marginBottom: '20px'
+          }}>
+            <h2 style={{ 
+              color: '#00ffff', 
+              margin: '0 0 20px 0', 
+              textAlign: 'center' 
+            }}>
+              {String.fromCharCode(0x56FE,0x50CF,0x5206,0x6790,0x7ED3,0x679C)} {/* 图像分析结果 */}
+            </h2>
+        
+            <div style={{
+              display: 'flex',
+              gap: '20px',
+              justifyContent: 'center',
+              marginBottom: '30px'
+            }}>
+              {/* 原始图像 */}
+              <div style={{
+                background: '#232323',
+                padding: '20px',
+                borderRadius: '10px',
+                border: '2px solid #333',
+                textAlign: 'center',
+                flex: '1',
+                maxWidth: '45%'
+              }}>
+                <h3 style={{ 
+                  color: '#ffffff', 
+                  margin: '0 0 15px 0' 
+                }}>
+                  {String.fromCharCode(0x539F,0x59CB,0x56FE,0x50CF)} {/* 原始图像 */}
+                </h3>
+                <div style={{
+                  background: '#000',
+                  border: '1px solid #555',
+                  borderRadius: '5px',
+                  overflow: 'hidden',
+                  height: '300px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center'
+                }}>
+                  {analysisData.originalImage ? (
+                    <img 
+                      src={analysisData.originalImage} 
+                      alt="Original track image" 
+                      style={{
+                        maxWidth: '100%',
+                        maxHeight: '100%',
+                        objectFit: 'contain'
+                      }}
+                    />
+                  ) : (
+                    <div style={{ color: '#666' }}>
+                      {String.fromCharCode(0x7B49,0x5F85,0x56FE,0x50CF,0x6570,0x636E,0x002E,0x002E,0x002E)} {/* 等待图像数据... */}
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              {/* 分析后图像 */}
+              <div style={{
+                background: '#232323',
+                padding: '20px',
+                borderRadius: '10px',
+                border: '2px solid #333',
+                textAlign: 'center',
+                flex: '1',
+                maxWidth: '45%'
+              }}>
+                <h3 style={{ 
+                  color: '#ffffff', 
+                  margin: '0 0 15px 0' 
+                }}>
+                  {String.fromCharCode(0x5206,0x6790,0x7ED3,0x679C,0x56FE,0x50CF)} {/* 分析结果图像 */}
+                </h3>
+                <div style={{
+                  background: '#000',
+                  border: '1px solid #555',
+                  borderRadius: '5px',
+                  overflow: 'hidden',
+                  height: '300px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center'
+                }}>
+                  {analysisData.analyzedImage ? (
+                    <img 
+                      src={analysisData.analyzedImage} 
+                      alt="Analyzed track image" 
+                      style={{
+                        maxWidth: '100%',
+                        maxHeight: '100%',
+                        objectFit: 'contain'
+                      }}
+                    />
+                  ) : (
+                    <div style={{ color: '#666' }}>
+                      {String.fromCharCode(0x7B49,0x5F85,0x5206,0x6790,0x7ED3,0x679C,0x002E,0x002E,0x002E)} {/* 等待分析结果... */}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* 分析结果详情 */}
+          <div style={{
+            background: '#1a1a1a',
+            padding: '30px',
+            borderRadius: '10px'
+          }}>
+            <h2 style={{ 
+              color: '#00ffff', 
+              margin: '0 0 20px 0' 
+            }}>
+              {String.fromCharCode(0x7F3A,0x9677,0x5206,0x6790,0x62A5,0x544A)} {/* 缺陷分析报告 */}
+            </h2>
+
+            {analysisData.analysisResults.length > 0 ? (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+                {analysisData.analysisResults.map((result, index) => (
+                  <div
+                    key={index}
+                    style={{
+                      background: '#232323',
+                      padding: '20px',
+                      borderRadius: '10px',
+                      border: '1px solid #333',
+                      borderLeft: `4px solid ${getSeverityColor(result.severity)}`
+                    }}
+                  >
+                    <div style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      marginBottom: '10px'
+                    }}>
+                      <h3 style={{ 
+                        color: '#ffffff', 
+                        margin: 0,
+                        fontSize: '1.2rem'
+                      }}>
+                        {result.defectType}
+                      </h3>
+                      <span
+                        style={{
+                          padding: '4px 12px',
+                          borderRadius: '20px',
+                          fontSize: '0.8rem',
+                          background: getSeverityColor(result.severity),
+                          color: '#000000',
+                          fontWeight: 'bold'
+                        }}
+                      >
+                        {result.severity}
+                      </span>
+                    </div>
+                    
+                    <div style={{
+                      display: 'grid',
+                      gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+                      gap: '15px',
+                      color: '#cccccc'
+                    }}>
+                      <div>
+                        <strong style={{ color: '#00ffff' }}>
+                          {String.fromCharCode(0x4F4D,0x7F6E,0x003A)} {/* 位置: */}
+                        </strong> {result.location}
+                      </div>
+                      <div>
+                        <strong style={{ color: '#00ffff' }}>
+                          {String.fromCharCode(0x5C3A,0x5BF8,0x003A)} {/* 尺寸: */}
+                        </strong> {result.size}
+                      </div>
+                    </div>
+                    
+                    <div style={{
+                      marginTop: '15px',
+                      padding: '10px',
+                      background: '#2a2a2a',
+                      borderRadius: '5px',
+                      borderLeft: '3px solid #00ffff'
+                    }}>
+                      <strong style={{ color: '#00ffff' }}>
+                        {String.fromCharCode(0x5904,0x7406,0x5EFA,0x8BAE,0x003A)} {/* 处理建议: */}
+                      </strong>
+                      <span style={{ color: '#ffffff', marginLeft: '10px' }}>
+                        {result.recommendation}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div style={{
+                textAlign: 'center',
+                color: '#666',
+                padding: '40px',
+                fontSize: '1.1rem'
+              }}>
+                {String.fromCharCode(0x6682,0x65E0,0x68C0,0x6D4B,0x5230,0x7F3A,0x9677,0xFF0C,0x8F68,0x9053,0x72B6,0x6001,0x826F,0x597D)} {/* 暂无检测到缺陷，轨道状态良好 */}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* 历史记录内容 */}
+      {activeTab === 'history' && (
+        <div style={{
+          background: '#1a1a1a',
+          padding: '30px',
+          borderRadius: '10px'
+        }}>
+          <h2 style={{ 
+            color: '#00ffff', 
+            margin: '0 0 30px 0' 
+          }}>
+            {String.fromCharCode(0x68C0,0x6D4B,0x5386,0x53F2,0x8BB0,0x5F55)} {/* 检测历史记录 */}
+          </h2>
+          
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+            {historyData.map((record) => (
+              <div
+                key={record.id}
+                style={{
+                  background: '#232323',
+                  padding: '25px',
+                  borderRadius: '10px',
+                  border: '1px solid #333',
+                  display: 'flex',
+                  gap: '20px',
+                  alignItems: 'center'
+                }}
+              >
+                <div style={{
+                  display: 'flex',
+                  gap: '15px'
+                }}>
+                  <img 
+                    src={record.originalImage} 
+                    alt="Historical original"
+                    style={{
+                      width: '100px',
+                      height: '80px',
+                      objectFit: 'cover',
+                      borderRadius: '5px',
+                      border: '1px solid #555'
+                    }}
+                  />
+                  <img 
+                    src={record.analyzedImage} 
+                    alt="Historical analyzed"
+                    style={{
+                      width: '100px',
+                      height: '80px',
+                      objectFit: 'cover',
+                      borderRadius: '5px',
+                      border: '1px solid #555'
+                    }}
+                  />
+                </div>
+                
+                <div style={{ flex: 1 }}>
+                  <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+                    gap: '15px',
+                    color: '#cccccc'
+                  }}>
+                    <div>
+                      <strong style={{ color: '#00ffff' }}>
+                        {String.fromCharCode(0x68C0,0x6D4B,0x65F6,0x95F4,0x003A)} {/* 检测时间: */}
+                      </strong> {record.timestamp}
+                    </div>
+                    <div>
+                      <strong style={{ color: '#00ffff' }}>
+                        {String.fromCharCode(0x4F4D,0x7F6E,0x003A)} {/* 位置: */}
+                      </strong> {record.location}
+                    </div>
+                    <div>
+                      <strong style={{ color: '#00ffff' }}>
+                        {String.fromCharCode(0x7F3A,0x9677,0x6570,0x91CF,0x003A)} {/* 缺陷数量: */}
+                      </strong> {record.defectsCount}
+                    </div>
+                    <div>
+                      <strong style={{ color: '#00ffff' }}>
+                        {String.fromCharCode(0x4E25,0x91CD,0x7A0B,0x5EA6,0x003A)} {/* 严重程度: */}
+                      </strong>
+                      <span
+                        style={{
+                          padding: '2px 8px',
+                          borderRadius: '12px',
+                          fontSize: '0.8rem',
+                          background: getSeverityColor(record.severity),
+                          color: '#000000',
+                          marginLeft: '5px'
+                        }}
+                      >
+                        {record.severity}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };
