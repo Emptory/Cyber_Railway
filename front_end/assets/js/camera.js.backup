@@ -1,0 +1,761 @@
+/**
+ * \u6444\u50cf\u5934\u63a7\u5236\u548cAI\u68c0\u6d4b\u529f\u80fd
+ */
+
+// \u5168\u5c40\u53d8\u91cf
+let cameraState = {
+    isActive: false,
+    isDetecting: false,
+    currentCameraId: 'camera1',
+    streamInterval: null,
+    detectionInterval: null,
+    detectionHistory: []
+};
+
+// API\u7aef\u70b9\u914d\u7f6e
+const API_CONFIG = {
+    CAMERA_SERVER: 'http://localhost:8888',
+    AI_DETECTION_SERVER: 'http://localhost:5001'
+};
+
+// \u521d\u59cb\u5316\u6444\u50cf\u5934\u529f\u80fd
+function initializeCameraFeatures() {
+    console.log('\u521d\u59cb\u5316\u6444\u50cf\u5934\u529f\u80fd...');
+    
+    // \u68c0\u67e5\u670d\u52a1\u5668\u72b6\u6001
+    checkServerStatus();
+    
+    // \u8bbe\u7f6e\u5b9a\u65f6\u5668\u66f4\u65b0\u754c\u9762
+    setInterval(updateCameraInterface, 1000);
+    
+    // \u8bbe\u7f6e\u68c0\u6d4b\u5386\u53f2\u66f4\u65b0
+    setInterval(updateDetectionHistory, 2000);
+}
+
+// \u68c0\u67e5\u670d\u52a1\u5668\u72b6\u6001
+async function checkServerStatus() {
+    try {
+        // \u68c0\u67e5\u6444\u50cf\u5934\u670d\u52a1\u5668
+        const cameraResponse = await fetch(`${API_CONFIG.CAMERA_SERVER}/api/status`);
+        const cameraStatus = await cameraResponse.json();
+        
+        // \u68c0\u67e5AI\u68c0\u6d4b\u670d\u52a1\u5668
+        const aiResponse = await fetch(`${API_CONFIG.AI_DETECTION_SERVER}/api/status`);
+        const aiStatus = await aiResponse.json();
+        
+        console.log('\u6444\u50cf\u5934\u670d\u52a1\u5668\u72b6\u6001:', cameraStatus);
+        console.log('AI\u68c0\u6d4b\u670d\u52a1\u5668\u72b6\u6001:', aiStatus);
+        
+        // \u66f4\u65b0\u754c\u9762\u72b6\u6001
+        updateServerStatus(cameraStatus, aiStatus);
+        
+    } catch (error) {
+        console.error('\u68c0\u67e5\u670d\u52a1\u5668\u72b6\u6001\u5931\u8d25:', error);
+        updateConnectionStatus('\u8fde\u63a5\u5931\u8d25');
+    }
+}
+
+// \u66f4\u65b0\u670d\u52a1\u5668\u72b6\u6001\u663e\u793a
+function updateServerStatus(cameraStatus, aiStatus) {
+    const statusElement = document.getElementById('connection-status');
+    const detectionStatusElement = document.getElementById('detection-status-text');
+    
+    if (cameraStatus.success && aiStatus.success) {
+        statusElement.textContent = '\u5df2\u8fde\u63a5';
+        statusElement.className = 'status-text status-connected';
+        
+        if (aiStatus.ai_model_loaded) {
+            detectionStatusElement.textContent = 'AI\u6a21\u578b\u5df2\u52a0\u8f7d';
+            detectionStatusElement.className = 'status-text status-ready';
+        } else {
+            detectionStatusElement.textContent = 'AI\u6a21\u578b\u672a\u52a0\u8f7d';
+            detectionStatusElement.className = 'status-text status-error';
+        }
+    } else {
+        statusElement.textContent = '\u8fde\u63a5\u5931\u8d25';
+        statusElement.className = 'status-text status-error';
+    }
+}
+
+// \u542f\u52a8\u6444\u50cf\u5934
+async function startCamera() {
+    console.log('\u542f\u52a8\u6444\u50cf\u5934...');
+    
+    try {
+        const response = await fetch(`${API_CONFIG.CAMERA_SERVER}/api/camera/start`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                camera_id: cameraState.currentCameraId,
+                device_id: 0,
+                width: 640,
+                height: 480
+            })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            cameraState.isActive = true;
+            console.log('摄像头启动成功');
+            
+            // 开始显示视频流
+            startVideoStream();
+            
+            // 更新界面
+            updateCameraControls();
+            
+            // 显示成功消息
+            showMessage('摄像头已启动', 'success');
+            
+        } else {
+            console.error('摄像头启动失败:', result.message);
+            showMessage('摄像头启动失败: ' + result.message, 'error');
+        }
+        
+    } catch (error) {
+        console.error('启动摄像头时发生错误:', error);
+        showMessage('启动摄像头时发生错误', 'error');
+    }
+}
+
+// 停止摄像头
+async function stopCamera() {
+    console.log('停止摄像头...');
+    
+    try {
+        // 停止检测
+        if (cameraState.isDetecting) {
+            await stopDetection();
+        }
+        
+        // 停止视频流
+        stopVideoStream();
+        
+        // 停止摄像头
+        const response = await fetch(`${API_CONFIG.CAMERA_SERVER}/api/camera/stop`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                camera_id: cameraState.currentCameraId
+            })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            cameraState.isActive = false;
+            console.log('摄像头已停止');
+            
+            // 更新界面
+            updateCameraControls();
+            
+            showMessage('摄像头已停止', 'success');
+            
+        } else {
+            console.error('停止摄像头失败:', result.message);
+            showMessage('停止摄像头失败: ' + result.message, 'error');
+        }
+        
+    } catch (error) {
+        console.error('停止摄像头时发生错误:', error);
+        showMessage('停止摄像头时发生错误', 'error');
+    }
+}
+
+// 开始视频流显示
+function startVideoStream() {
+    const streamImg = document.getElementById('camera-stream');
+    const placeholder = document.getElementById('video-placeholder');
+    
+    if (streamImg) {
+        streamImg.src = `${API_CONFIG.CAMERA_SERVER}/api/camera/mjpeg/${cameraState.currentCameraId}`;
+        streamImg.style.display = 'block';
+        
+        if (placeholder) {
+            placeholder.style.display = 'none';
+        }
+        
+        // 更新时间戳
+        updateVideoTimestamp();
+        
+        // 设置时间戳更新定时器
+        cameraState.streamInterval = setInterval(updateVideoTimestamp, 1000);
+    }
+}
+
+// 停止视频流显示
+function stopVideoStream() {
+    const streamImg = document.getElementById('camera-stream');
+    const placeholder = document.getElementById('video-placeholder');
+    
+    if (streamImg) {
+        streamImg.style.display = 'none';
+        streamImg.src = '';
+    }
+    
+    if (placeholder) {
+        placeholder.style.display = 'block';
+    }
+    
+    // 清除时间戳定时器
+    if (cameraState.streamInterval) {
+        clearInterval(cameraState.streamInterval);
+        cameraState.streamInterval = null;
+    }
+}
+
+// 更新视频时间戳
+function updateVideoTimestamp() {
+    const timestampElement = document.getElementById('video-timestamp');
+    if (timestampElement) {
+        timestampElement.textContent = new Date().toLocaleTimeString();
+    }
+}
+
+// 切换检测状态
+async function toggleDetection() {
+    if (cameraState.isDetecting) {
+        await stopDetection();
+    } else {
+        await startDetection();
+    }
+}
+
+// 启动检测
+async function startDetection() {
+    if (!cameraState.isActive) {
+        showMessage('请先启动摄像头', 'warning');
+        return;
+    }
+    
+    try {
+        const response = await fetch(`${API_CONFIG.AI_DETECTION_SERVER}/api/continuous_camera_detect`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                action: 'start',
+                camera_id: cameraState.currentCameraId
+            })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            cameraState.isDetecting = true;
+            console.log('检测已启动');
+            
+            // 显示检测结果区域
+            showDetectionResults();
+            
+            // 更新界面
+            updateCameraControls();
+            
+            showMessage('AI检测已启动', 'success');
+            
+        } else {
+            console.error('启动检测失败:', result.message);
+            showMessage('启动检测失败: ' + result.message, 'error');
+        }
+        
+    } catch (error) {
+        console.error('启动检测时发生错误:', error);
+        showMessage('启动检测时发生错误', 'error');
+    }
+}
+
+// 停止检测
+async function stopDetection() {
+    try {
+        const response = await fetch(`${API_CONFIG.AI_DETECTION_SERVER}/api/continuous_camera_detect`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                action: 'stop',
+                camera_id: cameraState.currentCameraId
+            })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            cameraState.isDetecting = false;
+            console.log('检测已停止');
+            
+            // 更新界面
+            updateCameraControls();
+            
+            showMessage('AI检测已停止', 'success');
+            
+        } else {
+            console.error('停止检测失败:', result.message);
+            showMessage('停止检测失败: ' + result.message, 'error');
+        }
+        
+    } catch (error) {
+        console.error('停止检测时发生错误:', error);
+        showMessage('停止检测时发生错误', 'error');
+    }
+}
+
+// 检测当前帧
+async function detectCurrentFrame() {
+    if (!cameraState.isActive) {
+        showMessage('请先启动摄像头', 'warning');
+        return;
+    }
+    
+    try {
+        showMessage('正在检测当前帧...', 'info');
+        
+        const response = await fetch(`${API_CONFIG.AI_DETECTION_SERVER}/api/detect_camera_frame`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                camera_id: cameraState.currentCameraId
+            })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            console.log('当前帧检测成功');
+            
+            // 显示检测结果
+            displayDetectionResult(result);
+            
+            // 显示检测结果区域
+            showDetectionResults();
+            
+            showMessage(`检测完成，耗时: ${result.detection_time.toFixed(2)}s`, 'success');
+            
+        } else {
+            console.error('检测当前帧失败:', result.message);
+            showMessage('检测当前帧失败: ' + result.message, 'error');
+        }
+        
+    } catch (error) {
+        console.error('检测当前帧时发生错误:', error);
+        showMessage('检测当前帧时发生错误', 'error');
+    }
+}
+
+// 截图功能
+async function captureSnapshot() {
+    if (!cameraState.isActive) {
+        showMessage('请先启动摄像头', 'warning');
+        return;
+    }
+    
+    try {
+        const response = await fetch(`${API_CONFIG.CAMERA_SERVER}/api/camera/snapshot/${cameraState.currentCameraId}`);
+        
+        if (response.ok) {
+            const blob = await response.blob();
+            const url = URL.createObjectURL(blob);
+            
+            // 创建下载链接
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `snapshot_${new Date().toISOString().replace(/[:.]/g, '-')}.jpg`;
+            link.click();
+            
+            URL.revokeObjectURL(url);
+            
+            showMessage('截图已保存', 'success');
+            
+        } else {
+            showMessage('截图失败', 'error');
+        }
+        
+    } catch (error) {
+        console.error('截图时发生错误:', error);
+        showMessage('截图时发生错误', 'error');
+    }
+}
+
+// 显示检测结果区域
+function showDetectionResults() {
+    const resultsSection = document.getElementById('detection-results-section');
+    if (resultsSection) {
+        resultsSection.style.display = 'block';
+    }
+}
+
+// 显示检测结果
+function displayDetectionResult(result) {
+    console.log('检测结果:', result);
+    
+    // 显示最新检测结果
+    const latestResultDiv = document.getElementById('latest-detection-result');
+    if (latestResultDiv) {
+        latestResultDiv.style.display = 'block';
+        
+        // 更新图像
+        const originalImg = document.getElementById('original-image');
+        const segmentationImg = document.getElementById('segmentation-result');
+        
+        if (originalImg && result.original_image) {
+            originalImg.src = result.original_image;
+        }
+        
+        if (segmentationImg && result.result_image) {
+            segmentationImg.src = result.result_image;
+        }
+        
+        // 更新检测信息
+        const detectionTime = document.getElementById('detection-time');
+        const detectionType = document.getElementById('detection-type');
+        const detectionTimestamp = document.getElementById('detection-timestamp');
+        
+        if (detectionTime) {
+            detectionTime.textContent = `${result.detection_time.toFixed(2)}s`;
+        }
+        
+        if (detectionType) {
+            detectionType.textContent = result.source_type || '摄像头检测';
+        }
+        
+        if (detectionTimestamp) {
+            detectionTimestamp.textContent = new Date(result.timestamp * 1000).toLocaleString();
+        }
+    }
+    
+    // 更新检测历史
+    cameraState.detectionHistory.unshift(result);
+    if (cameraState.detectionHistory.length > 20) {
+        cameraState.detectionHistory.pop();
+    }
+    
+    // 刷新历史列表显示
+    refreshDetectionHistoryDisplay();
+}
+
+// 刷新检测历史显示
+function refreshDetectionHistoryDisplay() {
+    const historyList = document.getElementById('detection-history-list');
+    if (!historyList) return;
+    
+    // 清空现有内容
+    historyList.innerHTML = '';
+    
+    if (cameraState.detectionHistory.length === 0) {
+        historyList.innerHTML = '<div class="history-item-placeholder"><p>暂无检测历史记录</p></div>';
+        return;
+    }
+    
+    // 生成历史记录项
+    cameraState.detectionHistory.forEach((item, index) => {
+        const historyItem = document.createElement('div');
+        historyItem.className = 'history-item';
+        historyItem.innerHTML = `
+            <div class="history-item-content">
+                <div class="history-item-header">
+                    <span class="history-item-time">${new Date(item.timestamp * 1000).toLocaleString()}</span>
+                    <span class="history-item-type">${item.source_type || '摄像头检测'}</span>
+                </div>
+                <div class="history-item-details">
+                    <p>检测时间: ${item.detection_time.toFixed(2)}s</p>
+                    <p>摄像头: ${item.camera_id || 'camera1'}</p>
+                </div>
+                <div class="history-item-actions">
+                    <button class="btn-small" onclick="viewDetectionResult(${index})">查看</button>
+                    <button class="btn-small" onclick="downloadDetectionResult(${index})">下载</button>
+                </div>
+            </div>
+        `;
+        historyList.appendChild(historyItem);
+    });
+}
+
+// 查看检测结果
+function viewDetectionResult(index) {
+    if (index >= 0 && index < cameraState.detectionHistory.length) {
+        const result = cameraState.detectionHistory[index];
+        displayDetectionResult(result);
+        
+        // 滚动到结果显示区域
+        const resultsSection = document.getElementById('latest-detection-result');
+        if (resultsSection) {
+            resultsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+}
+
+// 下载检测结果
+function downloadDetectionResult(index) {
+    if (index >= 0 && index < cameraState.detectionHistory.length) {
+        const result = cameraState.detectionHistory[index];
+        
+        // 创建一个包含检测结果的JSON文件
+        const resultData = {
+            timestamp: result.timestamp,
+            detection_time: result.detection_time,
+            source_type: result.source_type,
+            camera_id: result.camera_id,
+            // 注意：这里不包含图像数据，因为会太大
+        };
+        
+        const dataStr = JSON.stringify(resultData, null, 2);
+        const dataBlob = new Blob([dataStr], { type: 'application/json' });
+        const url = URL.createObjectURL(dataBlob);
+        
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = `detection_result_${new Date(result.timestamp * 1000).toISOString().replace(/[:.]/g, '-')}.json`;
+        link.click();
+        
+        URL.revokeObjectURL(url);
+        
+        showMessage('检测结果已下载', 'success');
+    }
+}
+
+// 刷新检测历史
+async function refreshDetectionHistory() {
+    try {
+        const response = await fetch(`${API_CONFIG.AI_DETECTION_SERVER}/api/detection_history`);
+        const result = await response.json();
+        
+        if (result.success) {
+            cameraState.detectionHistory = result.history || [];
+            refreshDetectionHistoryDisplay();
+            showMessage('检测历史已刷新', 'success');
+        } else {
+            showMessage('刷新检测历史失败', 'error');
+        }
+        
+    } catch (error) {
+        console.error('刷新检测历史时发生错误:', error);
+        showMessage('刷新检测历史时发生错误', 'error');
+    }
+}
+
+// 清空检测历史
+async function clearDetectionHistory() {
+    if (!confirm('确定要清空所有检测历史记录吗？此操作无法撤销。')) {
+        return;
+    }
+    
+    try {
+        const response = await fetch(`${API_CONFIG.AI_DETECTION_SERVER}/api/clear_history`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            cameraState.detectionHistory = [];
+            refreshDetectionHistoryDisplay();
+            
+            // 隐藏最新检测结果
+            const latestResultDiv = document.getElementById('latest-detection-result');
+            if (latestResultDiv) {
+                latestResultDiv.style.display = 'none';
+            }
+            
+            showMessage('检测历史已清空', 'success');
+        } else {
+            showMessage('清空检测历史失败', 'error');
+        }
+        
+    } catch (error) {
+        console.error('清空检测历史时发生错误:', error);
+        showMessage('清空检测历史时发生错误', 'error');
+    }
+}
+
+// 导出检测历史
+function exportDetectionHistory() {
+    if (cameraState.detectionHistory.length === 0) {
+        showMessage('暂无检测历史记录可导出', 'warning');
+        return;
+    }
+    
+    // 创建导出数据（不包含图像数据）
+    const exportData = cameraState.detectionHistory.map(item => ({
+        timestamp: item.timestamp,
+        detection_time: item.detection_time,
+        source_type: item.source_type,
+        camera_id: item.camera_id,
+        datetime: new Date(item.timestamp * 1000).toLocaleString()
+    }));
+    
+    const dataStr = JSON.stringify(exportData, null, 2);
+    const dataBlob = new Blob([dataStr], { type: 'application/json' });
+    const url = URL.createObjectURL(dataBlob);
+    
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `detection_history_${new Date().toISOString().replace(/[:.]/g, '-')}.json`;
+    link.click();
+    
+    URL.revokeObjectURL(url);
+    
+    showMessage('检测历史已导出', 'success');
+}
+
+// 更新检测历史显示
+async function updateDetectionHistory() {
+    if (!cameraState.isDetecting) return;
+    
+    try {
+        const response = await fetch(`${API_CONFIG.AI_DETECTION_SERVER}/api/latest_detection`);
+        const result = await response.json();
+        
+        if (result.success && result.detection) {
+            // 更新检测状态指示器
+            const indicator = document.getElementById('detection-indicator');
+            const statusText = document.getElementById('detection-current-status');
+            
+            if (indicator) {
+                indicator.className = 'status-dot status-normal';
+            }
+            
+            if (statusText) {
+                statusText.textContent = '检测中';
+            }
+            
+            // 更新检测次数
+            const countElement = document.getElementById('detection-count');
+            if (countElement) {
+                countElement.textContent = cameraState.detectionHistory.length;
+            }
+            
+            // 更新最后检测时间
+            const timeElement = document.getElementById('last-detection-time');
+            if (timeElement) {
+                timeElement.textContent = new Date(result.detection.timestamp * 1000).toLocaleTimeString();
+            }
+        }
+        
+    } catch (error) {
+        console.error('更新检测历史失败:', error);
+    }
+}
+
+// 更新摄像头控制界面
+function updateCameraControls() {
+    const startBtn = document.getElementById('start-camera-btn');
+    const toggleBtn = document.getElementById('toggle-detection');
+    const cameraStatus = document.getElementById('camera-status');
+    const recordingIndicator = document.getElementById('recording-indicator');
+    
+    if (startBtn && cameraStatus) {
+        if (cameraState.isActive) {
+            cameraStatus.textContent = '摄像头运行中';
+            startBtn.disabled = true;
+        } else {
+            cameraStatus.textContent = '启动摄像头';
+            startBtn.disabled = false;
+        }
+    }
+    
+    if (toggleBtn) {
+        if (cameraState.isDetecting) {
+            toggleBtn.textContent = '停止检测';
+            toggleBtn.className = 'btn-control btn-stop';
+        } else {
+            toggleBtn.textContent = '启动检测';
+            toggleBtn.className = 'btn-control';
+        }
+    }
+    
+    if (recordingIndicator) {
+        if (cameraState.isDetecting) {
+            recordingIndicator.style.display = 'inline';
+        } else {
+            recordingIndicator.style.display = 'none';
+        }
+    }
+}
+
+// 更新界面状态
+function updateCameraInterface() {
+    updateCameraControls();
+    
+    // 更新连接状态
+    const connectionStatus = document.getElementById('connection-status');
+    if (connectionStatus && cameraState.isActive) {
+        connectionStatus.textContent = '已连接';
+        connectionStatus.className = 'status-text status-connected';
+    }
+}
+
+// 显示消息
+function showMessage(message, type = 'info') {
+    console.log(`[${type.toUpperCase()}] ${message}`);
+    
+    // 这里可以添加Toast通知或其他UI反馈
+    // 暂时使用控制台输出
+    
+    // 可以添加一个简单的提示框
+    const messageDiv = document.createElement('div');
+    messageDiv.className = `message message-${type}`;
+    messageDiv.textContent = message;
+    messageDiv.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        border-radius: 4px;
+        color: white;
+        z-index: 1000;
+        font-size: 14px;
+    `;
+    
+    switch (type) {
+        case 'success':
+            messageDiv.style.backgroundColor = '#4CAF50';
+            break;
+        case 'error':
+            messageDiv.style.backgroundColor = '#f44336';
+            break;
+        case 'warning':
+            messageDiv.style.backgroundColor = '#ff9800';
+            break;
+        case 'info':
+        default:
+            messageDiv.style.backgroundColor = '#2196F3';
+            break;
+    }
+    
+    document.body.appendChild(messageDiv);
+    
+    setTimeout(() => {
+        if (messageDiv.parentNode) {
+            messageDiv.parentNode.removeChild(messageDiv);
+        }
+    }, 3000);
+}
+
+// 页面加载完成后初始化
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('摄像头功能页面加载完成');
+    initializeCameraFeatures();
+});
+
+// 导出函数供全局使用
+window.startCamera = startCamera;
+window.stopCamera = stopCamera;
+window.toggleDetection = toggleDetection;
+window.detectCurrentFrame = detectCurrentFrame;
+window.captureSnapshot = captureSnapshot;
+window.refreshDetectionHistory = refreshDetectionHistory;
+window.clearDetectionHistory = clearDetectionHistory;
+window.exportDetectionHistory = exportDetectionHistory;
+window.viewDetectionResult = viewDetectionResult;
+window.downloadDetectionResult = downloadDetectionResult;

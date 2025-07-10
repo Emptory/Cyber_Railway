@@ -1,0 +1,2023 @@
+[ WARN:0@0.177] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video2): can't open camera by index
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.182] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.182] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.182] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.182] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.182] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.182] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.182] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.182] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.182] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.182] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.182] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.183] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.183] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.183] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.183] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.183] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.183] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.183] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.183] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.183] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video3): can't open camera by index
+[ WARN:0@0.184] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.184] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.184] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.184] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.184] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.184] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.184] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.184] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.184] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.184] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.185] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.185] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.185] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.185] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.185] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.185] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.185] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.185] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.185] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.185] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.185] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.185] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.186] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.186] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.186] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.186] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.186] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.186] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.186] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.186] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.186] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.186] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.186] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.187] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.187] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.187] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.187] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.187] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.187] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.187] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.187] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.187] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.187] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.187] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.188] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.188] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.188] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.188] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.188] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.188] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.188] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.188] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.188] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.188] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.188] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.188] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.189] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.189] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.189] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 03:37:50,700 - INFO - Found video devices: []
+============================================================
+    Network Railway Monitoring System - Camera Server
+============================================================
+Available devices: 0
+
+Starting Flask server...
+API Address: http://localhost:8888
+API Documentation: http://localhost:8888
+Press Ctrl+C to stop server
+============================================================
+ * Serving Flask app 'camera_server'
+ * Debug mode: off
+2025-07-09 03:37:50,712 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.2.122:8888
+2025-07-09 03:37:50,712 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 03:37:51,352 - INFO - 127.0.0.1 - - [09/Jul/2025 03:37:51] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 03:38:00,032 - INFO - 127.0.0.1 - - [09/Jul/2025 03:38:00] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 03:38:05,341 - INFO - 127.0.0.1 - - [09/Jul/2025 03:38:05] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 03:38:08,080 - INFO - 127.0.0.1 - - [09/Jul/2025 03:38:08] "OPTIONS /api/camera/start HTTP/1.1" 200 -
+[ WARN:1@17.677] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:1@17.679] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.679] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.680] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.680] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.680] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.680] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.681] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.681] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.681] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.682] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.682] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.682] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.683] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.683] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.683] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.683] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.684] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.684] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.684] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.684] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.685] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.685] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.685] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.685] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.686] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.686] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.687] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.687] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.687] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.687] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.688] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.688] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.688] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.688] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.689] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.689] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.689] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.689] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.690] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.690] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.691] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.691] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.691] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.691] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.692] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.692] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.692] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.692] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.693] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.693] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.693] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.693] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.694] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.694] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.695] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.695] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@17.695] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@17.695] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:1@17.695] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 03:38:08,206 - ERROR - Cannot open camera device 0
+2025-07-09 03:38:08,207 - INFO - 127.0.0.1 - - [09/Jul/2025 03:38:08] "POST /api/camera/start HTTP/1.1" 200 -
+2025-07-09 03:38:11,260 - INFO - 127.0.0.1 - - [09/Jul/2025 03:38:11] "OPTIONS /api/camera/stop HTTP/1.1" 200 -
+2025-07-09 03:38:11,351 - INFO - 127.0.0.1 - - [09/Jul/2025 03:38:11] "POST /api/camera/stop HTTP/1.1" 200 -
+[ WARN:2@21.281] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:2@21.283] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.283] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.283] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.283] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.284] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.284] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.285] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.285] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.285] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.285] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.286] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.286] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.286] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.286] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.287] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.287] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.287] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.287] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.288] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.288] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.288] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.289] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.289] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.289] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.290] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.290] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.290] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.290] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.291] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.291] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.291] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.291] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.292] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.292] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.292] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.292] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.293] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.293] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.293] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.294] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.294] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.294] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.295] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.295] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.295] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.295] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.295] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.295] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.295] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.295] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.295] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.295] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.296] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.296] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.296] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.296] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@21.296] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@21.296] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:2@21.296] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 03:38:11,808 - ERROR - Cannot open camera device 0
+2025-07-09 03:38:11,808 - INFO - 127.0.0.1 - - [09/Jul/2025 03:38:11] "POST /api/camera/start HTTP/1.1" 200 -
+2025-07-09 03:43:10,256 - INFO - 127.0.0.1 - - [09/Jul/2025 03:43:10] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 03:43:57,372 - INFO - 127.0.0.1 - - [09/Jul/2025 03:43:57] "OPTIONS /api/camera/start HTTP/1.1" 200 -
+[ WARN:3@366.899] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:3@366.904] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.904] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.905] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.905] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.905] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.905] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.906] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.906] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.907] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.907] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.907] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.907] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.908] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.908] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.908] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.908] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.909] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.909] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.909] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.909] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.910] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.910] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.911] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.911] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.911] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.911] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.912] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.912] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.912] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.912] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.913] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.913] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.913] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.913] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.914] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.914] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.915] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.915] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.915] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.915] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.915] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.915] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.915] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.915] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.915] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.915] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.916] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.916] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.916] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.916] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.916] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.916] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.916] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.916] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.916] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.916] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@366.916] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@366.916] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:3@366.916] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 03:43:57,428 - ERROR - Cannot open camera device 0
+2025-07-09 03:43:57,429 - INFO - 127.0.0.1 - - [09/Jul/2025 03:43:57] "POST /api/camera/start HTTP/1.1" 200 -
+2025-07-09 03:45:56,351 - INFO - 127.0.0.1 - - [09/Jul/2025 03:45:56] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 03:56:59,203 - INFO - 127.0.0.1 - - [09/Jul/2025 03:56:59] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 03:57:04,034 - INFO - 127.0.0.1 - - [09/Jul/2025 03:57:04] "OPTIONS /api/camera/stop HTTP/1.1" 200 -
+2025-07-09 03:57:04,128 - INFO - 127.0.0.1 - - [09/Jul/2025 03:57:04] "POST /api/camera/stop HTTP/1.1" 200 -
+2025-07-09 04:05:56,195 - INFO - 127.0.0.1 - - [09/Jul/2025 04:05:56] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 04:06:02,055 - INFO - 127.0.0.1 - - [09/Jul/2025 04:06:02] "OPTIONS /api/camera/start HTTP/1.1" 200 -
+[ WARN:4@1691.582] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:4@1691.587] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.587] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.588] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.588] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.588] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.589] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.589] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.589] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.590] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.590] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.590] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.590] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.591] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.591] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.591] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.591] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.592] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.592] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.592] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.592] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.593] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.593] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.593] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.594] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.594] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.594] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.595] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.595] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.595] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.595] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.595] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.595] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.595] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.595] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.595] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.595] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.596] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.596] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.596] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.596] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.596] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.596] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.596] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.596] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.596] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.596] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.596] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.596] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.597] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.597] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.597] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.597] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.597] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.597] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.597] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.597] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@1691.597] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@1691.597] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:4@1691.597] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 04:06:02,109 - ERROR - Cannot open camera device 0
+2025-07-09 04:06:02,109 - INFO - 127.0.0.1 - - [09/Jul/2025 04:06:02] "POST /api/camera/start HTTP/1.1" 200 -
+2025-07-09 04:06:07,790 - INFO - 127.0.0.1 - - [09/Jul/2025 04:06:07] "OPTIONS /api/camera/stop HTTP/1.1" 200 -
+2025-07-09 04:06:07,829 - INFO - 127.0.0.1 - - [09/Jul/2025 04:06:07] "POST /api/camera/stop HTTP/1.1" 200 -
+2025-07-09 04:06:09,325 - INFO - 127.0.0.1 - - [09/Jul/2025 04:06:09] "OPTIONS /api/camera/start HTTP/1.1" 200 -
+[ WARN:5@1698.855] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:5@1698.857] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.857] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.858] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.858] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.858] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.858] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.859] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.859] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.859] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.859] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.860] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.860] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.861] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.861] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.861] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.861] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.862] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.862] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.862] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.862] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.863] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.863] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.863] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.863] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.864] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.864] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.864] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.865] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.865] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.865] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.866] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.866] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.866] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.866] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.867] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.867] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.867] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.867] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.868] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.868] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.868] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.868] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.869] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.869] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.869] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.869] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.870] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.870] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.871] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.871] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.871] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.871] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.872] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.872] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.872] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.872] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@1698.873] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@1698.873] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:5@1698.873] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 04:06:09,384 - ERROR - Cannot open camera device 0
+2025-07-09 04:06:09,386 - INFO - 127.0.0.1 - - [09/Jul/2025 04:06:09] "POST /api/camera/start HTTP/1.1" 200 -
+[ WARN:0@0.165] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.172] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.172] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.177] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 04:20:21,841 - INFO - Found video devices: []
+============================================================
+    Network Railway Monitoring System - Camera Server
+============================================================
+Available devices: 0
+
+Starting Flask server...
+API Address: http://localhost:8888
+API Documentation: http://localhost:8888
+Press Ctrl+C to stop server
+============================================================
+ * Serving Flask app 'camera_server'
+ * Debug mode: off
+2025-07-09 04:20:21,851 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.2.122:8888
+2025-07-09 04:20:21,851 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 04:20:22,520 - INFO - 127.0.0.1 - - [09/Jul/2025 04:20:22] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 04:20:32,050 - INFO - 127.0.0.1 - - [09/Jul/2025 04:20:32] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 04:20:58,296 - INFO - 127.0.0.1 - - [09/Jul/2025 04:20:58] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 04:21:04,988 - INFO - 127.0.0.1 - - [09/Jul/2025 04:21:04] "OPTIONS /api/camera/start HTTP/1.1" 200 -
+[ WARN:1@43.487] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:1@43.492] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.492] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.492] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.493] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.493] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.493] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.494] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.494] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.494] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.494] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.495] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.495] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.495] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.496] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.496] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.496] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.497] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.497] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.497] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.497] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.498] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.498] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.498] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.499] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.499] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.499] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.500] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.500] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.500] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.500] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.501] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.501] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.501] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.501] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.502] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.502] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.503] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.503] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.503] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.503] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.504] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.504] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.504] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.504] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.505] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.505] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.505] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.505] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.506] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.506] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.507] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.507] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.507] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.507] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.508] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.508] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:1@43.508] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:1@43.508] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:1@43.508] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 04:21:05,172 - ERROR - Cannot open camera device 0
+2025-07-09 04:21:05,174 - INFO - 127.0.0.1 - - [09/Jul/2025 04:21:05] "POST /api/camera/start HTTP/1.1" 200 -
+[ WARN:2@45.891] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:2@45.893] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.893] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.894] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.894] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.894] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.894] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.895] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.895] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.895] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.895] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.896] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.896] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.897] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.897] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.897] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.897] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.898] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.898] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.899] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.899] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.899] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.899] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.900] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.900] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.900] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.900] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.901] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.901] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.901] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.901] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.902] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.902] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.902] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.903] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.903] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.903] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.904] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.904] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.904] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.904] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.905] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.905] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.905] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.906] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.906] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.906] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.907] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.907] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.907] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.907] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.908] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.908] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.908] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.908] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.909] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.909] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:2@45.910] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:2@45.910] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:2@45.910] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 04:21:07,573 - ERROR - Cannot open camera device 0
+2025-07-09 04:21:07,575 - INFO - 127.0.0.1 - - [09/Jul/2025 04:21:07] "POST /api/camera/start HTTP/1.1" 200 -
+2025-07-09 04:21:08,559 - INFO - 127.0.0.1 - - [09/Jul/2025 04:21:08] "OPTIONS /api/camera/stop HTTP/1.1" 200 -
+2025-07-09 04:21:09,245 - INFO - 127.0.0.1 - - [09/Jul/2025 04:21:09] "POST /api/camera/stop HTTP/1.1" 200 -
+[ WARN:3@47.860] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:3@47.863] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.863] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.864] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.864] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.864] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.864] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.865] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.865] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.865] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.865] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.866] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.866] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.866] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.867] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.867] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.867] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.868] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.868] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.868] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.868] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.869] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.869] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.869] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.869] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.870] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.870] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.871] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.871] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.871] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.871] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.872] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.872] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.872] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.872] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.873] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.873] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.873] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.873] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.874] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.874] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.875] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.875] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.875] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.875] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.876] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.876] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.876] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.877] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.878] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.878] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.878] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.878] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.878] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.878] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.879] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.879] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:3@47.879] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:3@47.879] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:3@47.879] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 04:21:09,542 - ERROR - Cannot open camera device 0
+2025-07-09 04:21:09,543 - INFO - 127.0.0.1 - - [09/Jul/2025 04:21:09] "POST /api/camera/start HTTP/1.1" 200 -
+2025-07-09 04:21:58,628 - INFO - 127.0.0.1 - - [09/Jul/2025 04:21:58] "OPTIONS /api/camera/start HTTP/1.1" 200 -
+[ WARN:4@97.467] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:4@97.470] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.470] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.470] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.470] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.471] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.471] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.471] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.472] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.472] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.472] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.473] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.473] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.473] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.473] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.474] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.474] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.474] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.474] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.475] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.475] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.476] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.476] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.476] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.476] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.477] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.477] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.477] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.477] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.478] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.478] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.479] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.479] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.479] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.479] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.480] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.480] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.480] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.480] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.481] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.481] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.482] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.482] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.482] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.482] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.483] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.483] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.483] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.483] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.484] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.484] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.484] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.485] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.485] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.485] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.486] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.486] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:4@97.486] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:4@97.486] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:4@97.486] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 04:21:59,150 - ERROR - Cannot open camera device 0
+2025-07-09 04:21:59,152 - INFO - 127.0.0.1 - - [09/Jul/2025 04:21:59] "POST /api/camera/start HTTP/1.1" 200 -
+[ WARN:5@98.454] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:5@98.456] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.456] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.457] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.457] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.457] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.457] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.458] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.458] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.459] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.459] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.459] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.459] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.460] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.460] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.460] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.461] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.461] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.461] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.462] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.462] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.462] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.462] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.463] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.463] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.463] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.464] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.464] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.464] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.465] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.465] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.465] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.465] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.466] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.466] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.466] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.466] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.467] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.467] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.468] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.468] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.468] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.468] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.469] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.469] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.469] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.469] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.470] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.470] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.470] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.471] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.471] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.471] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.472] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.472] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.472] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.472] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:5@98.473] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:5@98.473] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:5@98.473] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 04:22:00,136 - ERROR - Cannot open camera device 0
+2025-07-09 04:22:00,138 - INFO - 127.0.0.1 - - [09/Jul/2025 04:22:00] "POST /api/camera/start HTTP/1.1" 200 -
+2025-07-09 04:23:33,399 - INFO - 127.0.0.1 - - [09/Jul/2025 04:23:33] "GET /api/status HTTP/1.1" 200 -
+[ WARN:0@0.166] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.172] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.172] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.178] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 09:41:10,777 - INFO - Found video devices: []
+============================================================
+    Network Railway Monitoring System - Camera Server
+============================================================
+Available devices: 0
+
+Starting Flask server...
+API Address: http://localhost:8888
+API Documentation: http://localhost:8888
+Press Ctrl+C to stop server
+============================================================
+ * Serving Flask app 'camera_server'
+ * Debug mode: off
+2025-07-09 09:41:10,788 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.2.122:8888
+2025-07-09 09:41:10,788 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 09:41:11,474 - INFO - 127.0.0.1 - - [09/Jul/2025 09:41:11] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 09:41:18,934 - INFO - 127.0.0.1 - - [09/Jul/2025 09:41:18] "GET /api/status HTTP/1.1" 200 -
+[ WARN:0@0.165] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.172] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.172] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.177] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 10:10:27,068 - INFO - Found video devices: []
+============================================================
+    Network Railway Monitoring System - Camera Server
+============================================================
+Available devices: 0
+
+Starting Flask server...
+API Address: http://localhost:8888
+API Documentation: http://localhost:8888
+Press Ctrl+C to stop server
+============================================================
+ * Serving Flask app 'camera_server'
+ * Debug mode: off
+2025-07-09 10:10:27,079 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.2.122:8888
+2025-07-09 10:10:27,079 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 10:10:27,731 - INFO - 127.0.0.1 - - [09/Jul/2025 10:10:27] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:10:37,275 - INFO - 127.0.0.1 - - [09/Jul/2025 10:10:37] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:10:44,315 - INFO - 127.0.0.1 - - [09/Jul/2025 10:10:44] "GET /api/status HTTP/1.1" 200 -
+[ WARN:0@0.168] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.176] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.176] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.178] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.179] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.180] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.181] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.181] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 10:12:29,498 - INFO - Found video devices: []
+============================================================
+    Network Railway Monitoring System - Camera Server
+============================================================
+Available devices: 0
+
+Starting Flask server...
+API Address: http://localhost:8888
+API Documentation: http://localhost:8888
+Press Ctrl+C to stop server
+============================================================
+ * Serving Flask app 'camera_server'
+ * Debug mode: off
+2025-07-09 10:12:29,510 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.2.122:8888
+2025-07-09 10:12:29,510 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 10:12:30,177 - INFO - 127.0.0.1 - - [09/Jul/2025 10:12:30] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:12:37,656 - INFO - 127.0.0.1 - - [09/Jul/2025 10:12:37] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:12:43,731 - INFO - 127.0.0.1 - - [09/Jul/2025 10:12:43] "GET /api/status HTTP/1.1" 200 -
+[ WARN:0@0.161] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:0@0.162] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.162] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.163] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.163] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.163] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.163] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.163] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.163] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.163] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.163] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.163] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.163] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.163] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.163] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.167] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.168] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.173] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 10:16:41,913 - INFO - Found video devices: []
+============================================================
+    Network Railway Monitoring System - Camera Server
+============================================================
+Available devices: 0
+
+Starting Flask server...
+API Address: http://localhost:8888
+API Documentation: http://localhost:8888
+Press Ctrl+C to stop server
+============================================================
+ * Serving Flask app 'camera_server'
+ * Debug mode: off
+2025-07-09 10:16:41,923 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.2.122:8888
+2025-07-09 10:16:41,924 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 10:16:42,580 - INFO - 127.0.0.1 - - [09/Jul/2025 10:16:42] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:16:50,056 - INFO - 127.0.0.1 - - [09/Jul/2025 10:16:50] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:17:31,152 - INFO - 127.0.0.1 - - [09/Jul/2025 10:17:31] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:17:34,136 - INFO - 127.0.0.1 - - [09/Jul/2025 10:17:34] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:18:51,145 - INFO - 127.0.0.1 - - [09/Jul/2025 10:18:51] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:18:51,516 - INFO - 127.0.0.1 - - [09/Jul/2025 10:18:51] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:18:51,991 - INFO - 127.0.0.1 - - [09/Jul/2025 10:18:51] "GET /api/status HTTP/1.1" 200 -
+[ WARN:0@0.162] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.164] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.169] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.169] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.174] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 10:19:08,032 - INFO - Found video devices: []
+============================================================
+    Network Railway Monitoring System - Camera Server
+============================================================
+Available devices: 0
+
+Starting Flask server...
+API Address: http://localhost:8888
+API Documentation: http://localhost:8888
+Press Ctrl+C to stop server
+============================================================
+ * Serving Flask app 'camera_server'
+ * Debug mode: off
+2025-07-09 10:19:08,043 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.2.122:8888
+2025-07-09 10:19:08,043 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 10:19:08,714 - INFO - 127.0.0.1 - - [09/Jul/2025 10:19:08] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:19:16,196 - INFO - 127.0.0.1 - - [09/Jul/2025 10:19:16] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:19:22,171 - INFO - 127.0.0.1 - - [09/Jul/2025 10:19:22] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:20:22,101 - INFO - 127.0.0.1 - - [09/Jul/2025 10:20:22] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:20:25,521 - INFO - 127.0.0.1 - - [09/Jul/2025 10:20:25] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:20:34,905 - INFO - 127.0.0.1 - - [09/Jul/2025 10:20:34] "OPTIONS /api/camera/stop HTTP/1.1" 200 -
+2025-07-09 10:20:35,010 - INFO - 127.0.0.1 - - [09/Jul/2025 10:20:35] "POST /api/camera/stop HTTP/1.1" 200 -
+[ WARN:0@0.164] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.165] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.166] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.170] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.171] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.176] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 10:22:10,490 - INFO - Found video devices: []
+============================================================
+    Network Railway Monitoring System - Camera Server
+============================================================
+Available devices: 0
+
+Starting Flask server...
+API Address: http://localhost:8888
+API Documentation: http://localhost:8888
+Press Ctrl+C to stop server
+============================================================
+ * Serving Flask app 'camera_server'
+ * Debug mode: off
+2025-07-09 10:22:10,500 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.2.122:8888
+2025-07-09 10:22:10,501 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 10:22:11,159 - INFO - 127.0.0.1 - - [09/Jul/2025 10:22:11] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:22:18,636 - INFO - 127.0.0.1 - - [09/Jul/2025 10:22:18] "GET /api/status HTTP/1.1" 200 -
+[ WARN:0@0.200] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:0@0.201] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.201] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.202] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.202] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.202] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.202] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.202] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.202] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.202] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.202] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.202] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.202] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.202] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.203] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.203] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.203] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.203] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.203] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.203] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.203] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.203] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.203] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.203] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.203] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.204] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.204] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.204] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.204] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.204] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.204] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.204] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.204] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.204] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.204] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.204] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.204] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.205] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.205] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.205] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.205] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.205] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.205] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.205] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.205] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.205] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.205] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.206] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.206] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.206] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.206] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.206] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.206] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.206] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.206] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.207] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.207] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ WARN:0@0.207] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.207] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.208] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.208] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.208] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.208] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.208] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.208] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.208] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.208] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.208] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.208] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.208] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.208] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.209] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.209] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.209] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.209] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.209] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.209] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.209] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.209] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.209] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.209] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.209] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.209] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.210] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.210] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.210] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.210] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.210] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.210] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.210] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.210] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.210] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.210] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.211] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.211] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.211] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.211] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.211] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.211] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.211] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.211] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.211] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.211] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.211] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.211] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.212] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.212] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.212] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.212] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.212] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.212] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.213] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 10:27:37,714 - INFO - Found video devices: []
+============================================================
+    Network Railway Monitoring System - Camera Server
+============================================================
+Available devices: 0
+
+Starting Flask server...
+API Address: http://localhost:8888
+API Documentation: http://localhost:8888
+Press Ctrl+C to stop server
+============================================================
+ * Serving Flask app 'camera_server'
+ * Debug mode: off
+2025-07-09 10:27:37,726 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.2.122:8888
+2025-07-09 10:27:37,726 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 10:27:38,279 - INFO - 127.0.0.1 - - [09/Jul/2025 10:27:38] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:27:45,757 - INFO - 127.0.0.1 - - [09/Jul/2025 10:27:45] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:27:54,373 - INFO - 127.0.0.1 - - [09/Jul/2025 10:27:54] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:36:34,579 - INFO - 127.0.0.1 - - [09/Jul/2025 10:36:34] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:36:43,186 - INFO - 127.0.0.1 - - [09/Jul/2025 10:36:43] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:37:08,160 - INFO - 127.0.0.1 - - [09/Jul/2025 10:37:08] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:37:11,523 - INFO - 127.0.0.1 - - [09/Jul/2025 10:37:11] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:38:40,300 - INFO - 127.0.0.1 - - [09/Jul/2025 10:38:40] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:39:58,503 - INFO - 127.0.0.1 - - [09/Jul/2025 10:39:58] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:41:19,707 - INFO - 127.0.0.1 - - [09/Jul/2025 10:41:19] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:41:23,565 - INFO - 127.0.0.1 - - [09/Jul/2025 10:41:23] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:44:35,873 - INFO - 127.0.0.1 - - [09/Jul/2025 10:44:35] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:44:38,825 - INFO - 127.0.0.1 - - [09/Jul/2025 10:44:38] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:44:46,341 - INFO - 127.0.0.1 - - [09/Jul/2025 10:44:46] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:46:51,663 - INFO - 127.0.0.1 - - [09/Jul/2025 10:46:51] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:48:47,742 - INFO - 127.0.0.1 - - [09/Jul/2025 10:48:47] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:50:48,998 - INFO - 127.0.0.1 - - [09/Jul/2025 10:50:48] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:51:02,348 - INFO - 127.0.0.1 - - [09/Jul/2025 10:51:02] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:52:36,038 - INFO - 127.0.0.1 - - [09/Jul/2025 10:52:36] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:56:18,724 - INFO - 127.0.0.1 - - [09/Jul/2025 10:56:18] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:56:24,540 - INFO - 127.0.0.1 - - [09/Jul/2025 10:56:24] "GET /api/status HTTP/1.1" 200 -
+[ WARN:0@0.165] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.167] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.168] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.169] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.170] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.171] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.172] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+[ WARN:0@0.172] global cap_v4l.cpp:997 open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.172] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.173] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.174] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 22
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.175] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=3, req=-2140645888
+[ WARN:0@0.176] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 25
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:82 xioctl ioctl: fd=-1, req=-2140645888
+[ WARN:0@0.177] global obsensor_stream_channel_v4l2.cpp:138 queryUvcDeviceInfoList ioctl error return: 9
+[ERROR:0@0.177] global obsensor_uvc_stream_channel.cpp:159 getStreamChannelGroup Camera index out of range
+2025-07-09 10:56:55,550 - INFO - Found video devices: []
+============================================================
+    Network Railway Monitoring System - Camera Server
+============================================================
+Available devices: 0
+
+Starting Flask server...
+API Address: http://localhost:8888
+API Documentation: http://localhost:8888
+Press Ctrl+C to stop server
+============================================================
+ * Serving Flask app 'camera_server'
+ * Debug mode: off
+2025-07-09 10:56:55,562 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.2.122:8888
+2025-07-09 10:56:55,563 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 10:56:56,262 - INFO - 127.0.0.1 - - [09/Jul/2025 10:56:56] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:57:04,776 - INFO - 127.0.0.1 - - [09/Jul/2025 10:57:04] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:57:10,169 - INFO - 127.0.0.1 - - [09/Jul/2025 10:57:10] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 10:58:16,601 - INFO - 127.0.0.1 - - [09/Jul/2025 10:58:16] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 11:01:49,783 - INFO - 127.0.0.1 - - [09/Jul/2025 11:01:49] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 11:02:47,158 - INFO - 127.0.0.1 - - [09/Jul/2025 11:02:47] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 11:04:39,674 - INFO - 127.0.0.1 - - [09/Jul/2025 11:04:39] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 11:09:28,652 - INFO - 127.0.0.1 - - [09/Jul/2025 11:09:28] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 11:09:43,651 - INFO - 127.0.0.1 - - [09/Jul/2025 11:09:43] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 11:09:50,064 - INFO - 127.0.0.1 - - [09/Jul/2025 11:09:50] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 11:13:18,303 - INFO - 127.0.0.1 - - [09/Jul/2025 11:13:18] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 11:13:39,765 - INFO - 127.0.0.1 - - [09/Jul/2025 11:13:39] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 11:13:43,634 - INFO - 127.0.0.1 - - [09/Jul/2025 11:13:43] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 11:15:15,073 - INFO - 127.0.0.1 - - [09/Jul/2025 11:15:15] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 11:16:35,072 - INFO - 127.0.0.1 - - [09/Jul/2025 11:16:35] "GET /api/status HTTP/1.1" 200 -
+2025-07-09 11:16:51,225 - INFO - 127.0.0.1 - - [09/Jul/2025 11:16:51] "OPTIONS /api/camera/stop HTTP/1.1" 200 -
+2025-07-09 11:16:51,315 - INFO - 127.0.0.1 - - [09/Jul/2025 11:16:51] "POST /api/camera/stop HTTP/1.1" 200 -

@@ -1,30 +1,553 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title>??????</title>
-    <style>
-      * {
-        font-family: "Noto Sans SC", "Microsoft YaHei", "SimHei", "SimSun", "Arial Unicode MS", Arial, sans-serif !important;
-        text-rendering: optimizeLegibility;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-      body {
-        font-family: "Noto Sans SC", "Microsoft YaHei", "SimHei", "SimSun", "Arial Unicode MS", Arial, sans-serif !important;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网络铁路监控系统</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>网络铁路监控系统</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-section="home">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link" data-section="services">服务</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#monitor" class="nav-link" data-section="monitor">监控</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reports" class="nav-link" data-section="reports">报告</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">关于</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">联系</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <!-- 首页部分 -->
+        <section id="home" class="section active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">网络铁路监控系统</h1>
+                    <p class="hero-subtitle">先进的铁路网络监控解决方案，确保安全高效的铁路运营</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="showSection('monitor')">开始监控</button>
+                        <button class="btn btn-secondary" onclick="showSection('about')">了解更多</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- >> -->
+            <div class="stats-section">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="156">0</div>
+                            <div class="stat-label">监控站点</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="99.9">0</div>
+                            <div class="stat-label">系统可用性(%)</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="24">0</div>
+                            <div class="stat-label">7x24小时监控</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="1200">0</div>
+                            <div class="stat-label">每日检测次数</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 服务部分 -->
+        <section id="services" class="section">
+            <div class="container">
+                <h2 class="section-title">我们的服务</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🚄</div>
+                        <h3>实时监控</h3>
+                        <p>24小时不间断监控铁路网络状态，及时发现并处理异常情况</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📊</div>
+                        <h3>数据分析</h3>
+                        <p>深度分析网络数据，提供详细的性能报告和趋势预测</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>故障诊断</h3>
+                        <p>智能故障诊断系统，快速定位问题并提供解决方案</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🛡️</div>
+                        <h3>安全防护</h3>
+                        <p>多层次安全防护体系，保障铁路网络信息安全</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">⚡</div>
+                        <h3>应急响应</h3>
+                        <p>快速应急响应机制，最大限度减少故障影响时间</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3>移动支持</h3>
+                        <p>移动端监控应用，随时随地掌握系统运行状态</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 监控部分 -->
+        <section id="monitor" class="section">
+            <div class="container">
+                <h2 class="section-title">系统监控</h2>
+                <div class="monitor-dashboard">
+                    <div class="monitor-grid">
+                        <div class="monitor-card">
+                            <h3>网络状态</h3>
+                            <div class="status-indicator">
+                                <span class="status-dot status-normal"></span>
+                                <span>正常运行</span>
+                            </div>
+                            <div class="monitor-details">
+                                <p>延迟: 12ms</p>
+                                <p>丢包率: 0.01%</p>
+                                <p>带宽利用率: 65%</p>
+                            </div>
+                        </div>
+                        <div class="monitor-card">
+                            <h3>服务器状态</h3>
+                            <div class="status-indicator">
+                                <span class="status-dot status-normal"></span>
+                                <span>正常运行</span>
+                            </div>
+                            <div class="monitor-details">
+                                <p>CPU使用率: 45%</p>
+                                <p>内存使用率: 68%</p>
+                                <p>磁盘使用率: 52%</p>
+                            </div>
+                        </div>
+                        <div class="monitor-card">
+                            <h3>数据库状态</h3>
+                            <div class="status-indicator">
+                                <span class="status-dot status-warning"></span>
+                                <span>需要关注</span>
+                            </div>
+                            <div class="monitor-details">
+                                <p>连接数: 245/300</p>
+                                <p>查询响应: 156ms</p>
+                                <p>存储空间: 78%</p>
+                            </div>
+                        </div>
+                        <div class="monitor-card">
+                            <h3>安全状态</h3>
+                            <div class="status-indicator">
+                                <span class="status-dot status-normal"></span>
+                                <span>安全</span>
+                            </div>
+                            <div class="monitor-details">
+                                <p>威胁等级: 低</p>
+                                <p>防火墙: 已启用</p>
+                                <p>入侵检测: 正常</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 视频监控区域 -->
+                    <div class="video-monitor-section">
+                        <h3>实时视频监控</h3>
+                        
+                        <!-- 检测模式切换 -->
+                        <div class="detection-mode-switch">
+                            <h4>检测模式</h4>
+                            <div class="mode-switch-buttons">
+                                <button class="btn-mode active" id="camera-mode-btn" onclick="switchDetectionMode('camera')">
+                                    <span class="mode-icon">📹</span>
+                                    <span>摄像头实时检测</span>
+                                </button>
+                                <button class="btn-mode" id="image-mode-btn" onclick="switchDetectionMode('image')">
+                                    <span class="mode-icon">🖼️</span>
+                                    <span>DataC图片检测</span>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="single-video-container">
+                            <div class="video-card main-video">
+                                <div class="video-header">
+                                    <h4>摄像头监控 - 实时画面</h4>
+                                    <div class="video-controls">
+                                        <button class="btn-control" id="start-camera-btn" onclick="startCamera()">
+                                            <span id="camera-status">启动摄像头</span>
+                                        </button>
+                                        <button class="btn-control" id="toggle-detection" onclick="toggleDetection()">启动检测</button>
+                                        <button class="btn-control" onclick="captureSnapshot()">截图</button>
+                                        <button class="btn-control" onclick="detectCurrentFrame()">检测当前帧</button>
+                                        <button class="btn-control" onclick="stopCamera()">停止</button>
+                                    </div>
+                                </div>
+                                <div class="video-container">
+                                    <img id="camera-stream" class="mjpeg-stream" src="" alt="摄像头视频流" style="display: none;">
+                                    <div id="video-placeholder" class="video-placeholder">
+                                        <p>点击"启动摄像头"开始监控</p>
+                                    </div>
+                                    <div class="video-overlay">
+                                        <div class="video-info">
+                                            <span class="recording-indicator" id="recording-indicator" style="display: none;">● 录制中</span>
+                                            <span class="timestamp" id="video-timestamp"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-settings">
+                                    <div class="setting-item">
+                                        <label>设备选择:</label>
+                                        <select id="device-select">
+                                            <option value="0">摄像头 0 (/dev/video0)</option>
+                                        </select>
+                                    </div>
+                                    <div class="setting-item">
+                                        <label>分辨率:</label>
+                                        <select id="resolution-select">
+                                            <option value="640x480" selected>640x480 (标准)</option>
+                                            <option value="1280x720">1280x720 (720p)</option>
+                                            <option value="1920x1080">1920x1080 (1080p)</option>
+                                        </select>
+                                    </div>
+                                    <div class="setting-item">
+                                        <label>状态:</label>
+                                        <span id="connection-status" class="status-text">未连接</span>
+                                    </div>
+                                    <div class="setting-item">
+                                        <label>检测状态:</label>
+                                        <span id="detection-status-text" class="status-text">未启用</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- DataC图片检测区域 -->
+                    <div class="image-detection-section" id="image-detection-section" style="display: none;">
+                        <h3>DataC图片检测</h3>
+                        <div class="image-detection-container">
+                            <div class="image-upload-card">
+                                <div class="image-upload-header">
+                                    <h4>DataC图片选择</h4>
+                                    <div class="upload-controls">
+                                        <select id="datac-image-select" onchange="selectDataCImage()">
+                                            <option value="">请选择DataC图片</option>
+                                        </select>
+                                        <button class="btn-control" onclick="refreshDataCImages()">刷新列表</button>
+                                        <button class="btn-control" onclick="detectDataCImage()">检测选中图片</button>
+                                    </div>
+                                </div>
+                                <div class="image-preview-container">
+                                    <div class="image-preview" id="datac-image-preview">
+                                        <div class="image-placeholder">
+                                            <p>请选择DataC图片进行检测</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image-info">
+                                    <div class="info-item">
+                                        <label>图片名称:</label>
+                                        <span id="datac-image-name">未选择</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <label>图片大小:</label>
+                                        <span id="datac-image-size">--</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <label>检测状态:</label>
+                                        <span id="datac-detection-status" class="status-text">未检测</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 检测结果显示区域 -->
+                    <div class="detection-results-section" id="detection-results-section" style="display: block;">
+                        <h3>检测结果</h3>
+                        <div class="detection-info">
+                            <div class="detection-card">
+                                <h4>实时检测状态</h4>
+                                <div class="detection-status">
+                                    <span class="status-dot" id="detection-indicator"></span>
+                                    <span id="detection-current-status">等待检测</span>
+                                </div>
+                                <div class="detection-details">
+                                    <p>检测次数: <span id="detection-count">0</span></p>
+                                    <p>最后检测: <span id="last-detection-time">未检测</span></p>
+                                    <p>当前状态: <span id="current-detection-result">正常</span></p>
+                                </div>
+                            </div>
+                            <div class="detection-card">
+                                <h4>图像分析信息</h4>
+                                <div class="detection-details">
+                                    <p>亮度: <span id="frame-brightness">--</span></p>
+                                    <p>边缘密度: <span id="edge-density">--</span></p>
+                                    <p>轮廓数量: <span id="contour-count">--</span></p>
+                                    <p>分辨率: <span id="frame-resolution">--</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 最新检测结果显示 -->
+                        <div class="latest-detection-result" id="latest-detection-result" style="display: none;">
+                            <h4>最新检测结果</h4>
+                            <div class="detection-result-images">
+                                <div class="result-image-container">
+                                    <h5>原始图像</h5>
+                                    <img id="original-image" src="" alt="原始图像" style="max-width: 300px; max-height: 200px;">
+                                </div>
+                                <div class="result-image-container">
+                                    <h5>分割结果</h5>
+                                    <img id="segmentation-result" src="" alt="分割结果" style="max-width: 300px; max-height: 200px;">
+                                </div>
+                            </div>
+                            <div class="detection-result-info">
+                                <p>检测时间: <span id="detection-time">--</span></p>
+                                <p>检测类型: <span id="detection-type">--</span></p>
+                                <p>时间戳: <span id="detection-timestamp">--</span></p>
+                            </div>
+                        </div>
+                        
+                        <!-- 检测结果对比图 -->
+                        <div class="detection-comparison-container" id="detection-comparison" style="display: none;">
+                            <h4>检测结果对比</h4>
+                            <div class="comparison-images">
+                                <div class="image-container">
+                                    <h5>原始图像</h5>
+                                    <img id="comparison-original" src="" alt="原始图像">
+                                </div>
+                                <div class="image-container">
+                                    <h5>分割结果</h5>
+                                    <img id="comparison-result" src="" alt="分割结果">
+                                </div>
+                            </div>
+                            <div class="comparison-info">
+                                <p>检测时间: <span id="comparison-time">--</span></p>
+                                <p>检测时间戳: <span id="comparison-timestamp">--</span></p>
+                            </div>
+                        </div>
+                        
+                        <!-- 检测历史记录 -->
+                        <div class="detection-history-section">
+                            <h4>检测历史</h4>
+                            <div class="history-controls">
+                                <button class="btn-control" onclick="refreshDetectionHistory()">刷新历史</button>
+                                <button class="btn-control" onclick="clearDetectionHistory()">清空历史</button>
+                                <button class="btn-control" onclick="exportDetectionHistory()">导出历史</button>
+                            </div>
+                            <div class="detection-history-list" id="detection-history-list">
+                                <!-- 历史记录将在这里动态生成 -->
+                                <div class="history-item-placeholder">
+                                    <p>暂无检测历史记录</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 报告部分 -->
+        <section id="reports" class="section">
+            <div class="container">
+                <h2 class="section-title">监控报告</h2>
+                <div class="reports-section">
+                    <div class="report-filters">
+                        <select class="filter-select">
+                            <option>最近7天</option>
+                            <option>最近30天</option>
+                            <option>最近90天</option>
+                        </select>
+                        <select class="filter-select">
+                            <option>所有类型</option>
+                            <option>网络报告</option>
+                            <option>性能报告</option>
+                            <option>安全报告</option>
+                        </select>
+                        <button class="btn btn-primary">生成报告</button>
+                    </div>
+                    <div class="reports-list">
+                        <div class="report-item">
+                            <div class="report-info">
+                                <h3>网络性能月度报告</h3>
+                                <p>2024年1月铁路网络性能分析报告</p>
+                                <span class="report-date">2024-01-31</span>
+                            </div>
+                            <div class="report-actions">
+                                <button class="btn btn-outline">查看</button>
+                                <button class="btn btn-outline">下载</button>
+                            </div>
+                        </div>
+                        <div class="report-item">
+                            <div class="report-info">
+                                <h3>安全威胁分析报告</h3>
+                                <p>2024年1月安全事件及威胁分析</p>
+                                <span class="report-date">2024-01-30</span>
+                            </div>
+                            <div class="report-actions">
+                                <button class="btn btn-outline">查看</button>
+                                <button class="btn btn-outline">下载</button>
+                            </div>
+                        </div>
+                        <div class="report-item">
+                            <div class="report-info">
+                                <h3>系统运</h3>
+                                <p>2024年1月系统整体运行情况统计</p>
+                                <span class="report-date">2024-01-29</span>
+                            </div>
+                            <div class="report-actions">
+                                <button class="btn btn-outline"></button>
+                                <button class="btn btn-outline">下载</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于部分 -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">关于我们</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>专业的铁路网络监控解决方案提供商</h3>
+#                        <p>我们是一家专注于铁路网络监控技术的高科技企业，致力于为铁路行业提供最先进
+</p>
+                        <p>凭借多年的行业经验和技术积累，我们的团队开发了业界领先的铁路网络监控系统，能够实时监控铁路网络的各项关键指标，确保铁路运营的安全和效率。</p>
+                        
+                        <div class="features-list">
+                            <h4>核心优势</h4>
+                            <ul>
+                                <li>✓ 实时监控和预警系统</li>
+                                <li>✓ 智能故障诊断技术</li>
+                                <li>✓ 大数据分析和预测</li>
+                                <li>✓ 多层次安全防护</li>
+                                <li>✓ 7x24小时技术支持</li>
+                                <li>✓ 定制化解决方案</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="placeholder-image">关于我们图像</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系部分 -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">联系我们</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>联系信息</h3>
+                        <div class="contact-item">
+                            <strong>地址:</strong>
+                            <p>北京市海淀区科技园区铁路大厦12层</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>电话:</strong>
+                            <p>+86 010-12345678</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>邮箱:</strong>
+                            <p>info@railway-monitor.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>工作时间:</strong>
+                            <p>周一至周五 9:00-18:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>发送消息</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">姓名</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">邮箱</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">主题</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">消息</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">发送消息</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>网络铁路监控系统</h4>
+                    <p>专业的铁路网络监控解决方案</p>
+                </div>
+                <div class="footer-section">
+                    <h4>服务</h4>
+                    <ul>
+                        <li><a href="#monitor">实时监控</a></li>
+                        <li><a href="#reports">数据分析</a></li>
+                        <li><a href="#services">故障诊断</a></li>
+                        <li><a href=#services>></a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>支持</h4>
+                    <ul>
+                        <li><a href="#contact">技术支持</a></li>
+                        <li><a href="#about">帮助文档</a></li>
+                        <li><a href="#contact">联系我们</a></li>
+                        <li><a href="#about">关于我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 网络铁路监控. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/camera.js"></script>
+</body>
 </html>

@@ -1,0 +1,3 @@
+nohup: ignoring input
+  File "detection_server.py", line 26
+SyntaxError: Non-UTF-8 code starting with '\xd0' in file detection_server.py on line 26, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
